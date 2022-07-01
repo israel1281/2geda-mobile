@@ -18,17 +18,16 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.resetYourPassword {
+.pleaseVerifyYourEmail {
   color: #000c;
   font-size: 20px;
   font-weight: 500;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  width: 267px;
-  height: 136px;
   position: absolute;
   left: 32px;
   top: 160px;
+  white-space: nowrap;
 }
 .rectangle3 {
   width: 321px;
@@ -37,39 +36,18 @@
   left: 27px;
   top: 699px;
   border-radius: 10px;
-  background-color: #4f0da3;
+  background-color: #4f0da380;
 }
-.sendCode {
+.verify {
   color: #fff;
   font-size: 17px;
   font-weight: 300;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 148px;
+  left: 168px;
   top: 717px;
   white-space: nowrap;
-}
-.inputPhoneNumber {
-  color: #0006;
-  font-size: 12px;
-  font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 46px;
-  top: 220px;
-  white-space: nowrap;
-}
-.rectangle5 {
-  width: 311px;
-  height: 53px;
-  position: absolute;
-  left: 32px;
-  top: 199px;
-  outline: solid 1px #28282880;
-  outline-offset: -1px;
-  border-radius: 8px;
 }
 .ellipse14 {
   position: absolute;
@@ -87,25 +65,42 @@
   top: 94px;
   overflow: visible;
 }
-.useEmailInstead {
-  color: #4f0da3;
+.group15 {
+  width: 256px;
+  height: 53px;
+  position: absolute;
+  left: 32px;
+  top: 227px;
+  overflow: visible;
+}
+.weSentA4DigitsCodeToYourEmail {
+  color: #0006;
+  font-size: 12px;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 32px;
+  top: 188px;
+  white-space: nowrap;
+}
+._042 {
+  color: #000c;
   font-size: 15px;
   font-weight: 500;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 32px;
-  top: 327px;
+  left: 168px;
+  top: 319px;
   white-space: nowrap;
 }
-.weLlSendAVerificationCodeToYou {
-  color: #0000004d;
-  font-size: 13px;
-  font-weight: 300;
+.didnTGetCodeResendCode {
+  color: #4f0da366;
+  font-size: 12px;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  width: 315px;
   position: absolute;
-  left: 32px;
-  top: 266px;
+  left: 107px;
+  top: 344px;
+  white-space: nowrap;
 }
