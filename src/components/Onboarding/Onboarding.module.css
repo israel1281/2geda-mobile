@@ -1,0 +1,110 @@
+.root {
+  height: 100%;
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  gap: 40px;
+  padding: 15px 18px;
+  position: relative;
+  background-color: #fff;
+}
+._2GEDA11 {
+  width: 77px;
+  height: 78px;
+  position: absolute;
+  left: 148.5px;
+  top: 70px;
+  background-image:/* webpackIgnore: true */ url("assets/_2GEDA11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.unlockBusinessAndPersonalPoten {
+  color: #000c;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: 241px;
+  height: 136px;
+  position: absolute;
+  left: 66.5px;
+  top: 188px;
+}
+.meetProspectiveClientsAndVendo {
+  color: #000c;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: 241px;
+  height: 72px;
+  position: absolute;
+  left: 66.5px;
+  top: 364px;
+}
+.rectangle4 {
+  width: 25px;
+  height: 4px;
+  position: absolute;
+  left: 174.5px;
+  top: 476px;
+  border-radius: 10px;
+  background-color: #4f0da3;
+}
+.ellipse3 {
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  left: 185px;
+  top: 520px;
+  overflow: visible;
+}
+.ellipse4 {
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  left: 185px;
+  top: 564px;
+  overflow: visible;
+}
+.rectangle3 {
+  width: 321px;
+  height: 58px;
+  position: absolute;
+  left: 26.5px;
+  top: 608px;
+  border-radius: 10px;
+  background-color: #4f0da3;
+}
+.openAnAccount {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 120.5px;
+  top: 626px;
+  white-space: nowrap;
+}
+.rectangle32 {
+  width: 321px;
+  height: 58px;
+  position: absolute;
+  left: 26.5px;
+  top: 706px;
+  outline: solid 1px #0000004d;
+  outline-offset: -1px;
+  border-radius: 10px;
+}
+.signIn {
+  color: #000c;
+  font-size: 17px;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 162.5px;
+  top: 725px;
+  white-space: nowrap;
+}
