@@ -1,0 +1,147 @@
+.root {
+  height: 812px;
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+.changePassword {
+  color: #000c;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 32px;
+  top: 160px;
+  white-space: nowrap;
+}
+.rectangle3 {
+  width: 321px;
+  height: 58px;
+  position: absolute;
+  left: 27px;
+  top: 719px;
+  border-radius: 10px;
+  background-color: #4f0da3;
+}
+.changePassword2 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 121px;
+  top: 737px;
+  white-space: nowrap;
+}
+.ellipse14 {
+  position: absolute;
+  left: 6.9333%;
+  right: 80.5333%;
+  top: 9.7289%;
+  bottom: 84.1133%;
+  overflow: visible;
+}
+.arrowLeft {
+  width: 25.3799px;
+  height: 20px;
+  position: absolute;
+  left: 36.34px;
+  top: 94px;
+  overflow: visible;
+}
+.securityIsTheUtmostFocusOfOurD {
+  color: #0006;
+  font-size: 12px;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: 285px;
+  position: absolute;
+  left: 32px;
+  top: 191px;
+}
+.consideringUsingCapitalSmallLe {
+  color: #0006;
+  font-size: 12px;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: 285px;
+  position: absolute;
+  left: 32px;
+  top: 351px;
+}
+.verified {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 295px;
+  top: 82px;
+  overflow: visible;
+}
+.oldPassword {
+  color: #9c515166;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 282px;
+  white-space: nowrap;
+}
+.rectangle5 {
+  width: 311px;
+  height: 53px;
+  position: absolute;
+  left: 32px;
+  top: 261px;
+  outline: solid 1px #28282880;
+  outline-offset: -1px;
+  border-radius: 8px;
+}
+.newPassword {
+  color: #9c515166;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 409px;
+  white-space: nowrap;
+}
+.rectangle52 {
+  width: 311px;
+  height: 53px;
+  position: absolute;
+  left: 32px;
+  top: 388px;
+  outline: solid 1px #28282880;
+  outline-offset: -1px;
+  border-radius: 8px;
+}
+.confirmNewPassword {
+  color: #9c515166;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 472px;
+  white-space: nowrap;
+}
+.rectangle53 {
+  width: 311px;
+  height: 53px;
+  position: absolute;
+  left: 32px;
+  top: 451px;
+  outline: solid 1px #28282880;
+  outline-offset: -1px;
+  border-radius: 8px;
+}
