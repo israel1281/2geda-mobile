@@ -1,7 +1,7 @@
 import { FC, memo } from "react";
 
 import classes from "./App.module.css";
-import { ChangePassword } from "./components/ChangePassword/ChangePassword";
+import { MyInvenotry } from "./components/MyInvenotry/MyInvenotry";
 
 interface Props {
   className?: string;
@@ -9,7 +9,7 @@ interface Props {
 export const App: FC<Props> = memo(function App(props = {}) {
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
-      <ChangePassword />
+      <MyInvenotry />
     </div>
   );
 });

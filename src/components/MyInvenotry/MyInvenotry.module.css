@@ -1,0 +1,676 @@
+.root {
+  height: 1018px;
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+._4ProductsFound {
+  color: #0009;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 26px;
+  top: 227px;
+  white-space: nowrap;
+}
+.yesterday {
+  color: #0009;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 264px;
+  white-space: nowrap;
+}
+.yesterday2 {
+  color: #0009;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 792px;
+  white-space: nowrap;
+}
+._3112022 {
+  color: #0009;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 26px;
+  top: 430px;
+  white-space: nowrap;
+}
+._1012022 {
+  color: #0009;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 26px;
+  top: 681px;
+  white-space: nowrap;
+}
+.rectangle200 {
+  width: 66px;
+  height: 61px;
+  position: absolute;
+  left: 26px;
+  top: 283px;
+  border-radius: 5px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/rectangle200.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lagosNg {
+  color: #000c;
+  font-size: 12px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 103px;
+  top: 301px;
+  white-space: nowrap;
+}
+.categoryAutomobile {
+  color: #0009;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 103px;
+  top: 317px;
+  white-space: nowrap;
+}
+._180000 {
+  color: #4f0da3;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 264px;
+  top: 283px;
+  white-space: nowrap;
+}
+.teslaT8 {
+  color: #000c;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 122px;
+  height: 13px;
+  position: absolute;
+  left: 101px;
+  top: 282px;
+}
+.rectangle197 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 198px;
+  top: 357px;
+  border-radius: 4px;
+  background-color: #f00;
+}
+.delete {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 29px;
+  height: 11.25px;
+  position: absolute;
+  left: 223px;
+  top: 365px;
+}
+.rectangle1972 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 113px;
+  top: 357px;
+  border-radius: 4px;
+  background-color: #a99fb1;
+}
+.edit {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 17px;
+  height: 11.25px;
+  position: absolute;
+  left: 144px;
+  top: 365px;
+}
+.rectangle1973 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 26px;
+  top: 357px;
+  border-radius: 4px;
+  background-color: #0ac0b5;
+}
+.markAsSold {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 52px;
+  height: 11.25px;
+  position: absolute;
+  left: 39px;
+  top: 365px;
+}
+.rectangle2002 {
+  width: 66px;
+  height: 61px;
+  position: absolute;
+  left: 26px;
+  top: 811px;
+  border-radius: 5px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/rectangle2002.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lagosNg2 {
+  color: #000c;
+  font-size: 12px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 103px;
+  top: 829px;
+  white-space: nowrap;
+}
+.categoryAutomobile2 {
+  color: #0009;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 103px;
+  top: 845px;
+  white-space: nowrap;
+}
+._1800002 {
+  color: #4f0da3;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 264px;
+  top: 811px;
+  white-space: nowrap;
+}
+.teslaT82 {
+  color: #000c;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 122px;
+  height: 13px;
+  position: absolute;
+  left: 101px;
+  top: 810px;
+}
+.rectangle1974 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 198px;
+  top: 885px;
+  border-radius: 4px;
+  background-color: #f00;
+}
+.delete2 {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 29px;
+  height: 11.25px;
+  position: absolute;
+  left: 223px;
+  top: 893px;
+}
+.rectangle1975 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 113px;
+  top: 885px;
+  border-radius: 4px;
+  background-color: #a99fb1;
+}
+.edit2 {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 17px;
+  height: 11.25px;
+  position: absolute;
+  left: 144px;
+  top: 893px;
+}
+.rectangle1976 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 26px;
+  top: 885px;
+  border-radius: 4px;
+  background-color: #0ac0b5;
+}
+.markAsSold2 {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 52px;
+  height: 11.25px;
+  position: absolute;
+  left: 39px;
+  top: 893px;
+}
+.rectangle2003 {
+  width: 66px;
+  height: 61px;
+  position: absolute;
+  left: 25px;
+  top: 448px;
+  border-radius: 5px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/rectangle2003.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lagosNg3 {
+  color: #000c;
+  font-size: 12px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 102px;
+  top: 466px;
+  white-space: nowrap;
+}
+.categoryAutomobile3 {
+  color: #0009;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 102px;
+  top: 482px;
+  white-space: nowrap;
+}
+._1800003 {
+  color: #4f0da3;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 263px;
+  top: 448px;
+  white-space: nowrap;
+}
+.teslaT83 {
+  color: #000c;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 122px;
+  height: 13px;
+  position: absolute;
+  left: 100px;
+  top: 447px;
+}
+.rectangle1977 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 197px;
+  top: 522px;
+  border-radius: 4px;
+  background-color: #f00;
+}
+.delete3 {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 29px;
+  height: 11.25px;
+  position: absolute;
+  left: 222px;
+  top: 530px;
+}
+.rectangle1978 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 112px;
+  top: 522px;
+  border-radius: 4px;
+  background-color: #a99fb1;
+}
+.edit3 {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 17px;
+  height: 11.25px;
+  position: absolute;
+  left: 143px;
+  top: 530px;
+}
+.rectangle1979 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 25px;
+  top: 522px;
+  border-radius: 4px;
+  background-color: #000c;
+}
+.sold {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 55px;
+  top: 530px;
+  white-space: nowrap;
+}
+.rectangle2004 {
+  width: 66px;
+  height: 61px;
+  position: absolute;
+  left: 25px;
+  top: 699px;
+  border-radius: 5px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/rectangle2004.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lagosNg4 {
+  color: #000c;
+  font-size: 12px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 102px;
+  top: 717px;
+  white-space: nowrap;
+}
+.categoryAutomobile4 {
+  color: #0009;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 102px;
+  top: 733px;
+  white-space: nowrap;
+}
+._1800004 {
+  color: #4f0da3;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 263px;
+  top: 699px;
+  white-space: nowrap;
+}
+.teslaT84 {
+  color: #000c;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 122px;
+  height: 13px;
+  position: absolute;
+  left: 100px;
+  top: 698px;
+}
+.rectangle19710 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 197px;
+  top: 773px;
+  border-radius: 4px;
+  background-color: #f00;
+}
+.delete4 {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 29px;
+  height: 11.25px;
+  position: absolute;
+  left: 222px;
+  top: 781px;
+}
+.rectangle19711 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 112px;
+  top: 773px;
+  border-radius: 4px;
+  background-color: #a99fb1;
+}
+.edit4 {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 17px;
+  height: 11.25px;
+  position: absolute;
+  left: 143px;
+  top: 781px;
+}
+.rectangle19712 {
+  width: 78px;
+  height: 27px;
+  position: absolute;
+  left: 25px;
+  top: 773px;
+  border-radius: 4px;
+  background-color: #000c;
+}
+.sold2 {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 55px;
+  top: 781px;
+  white-space: nowrap;
+}
+.line15 {
+  width: 324.0015px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  position: absolute;
+  left: 25.9991px;
+  top: 411.5px;
+  border-bottom: solid 1px #0000004d;
+  margin-bottom: -1px;
+}
+.easterSales_01v31 {
+  width: 328px;
+  height: 79px;
+  position: absolute;
+  left: 24px;
+  top: 578px;
+  background-image:/* webpackIgnore: true */ url('assets/easterSales_01v31.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image:/* webpackIgnore: true */ url('assets/aD.svg');
+  mask-image:/* webpackIgnore: true */ url('assets/aD.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: -5px 0px;
+  mask-position: -5px 0px;
+  -webkit-mask-size: 338px 79px;
+  mask-size: 338px 79px;
+}
+.rectangle198 {
+  width: 375px;
+  height: 202px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+}
+.rectangle32 {
+  width: 206px;
+  height: 39px;
+  position: absolute;
+  left: 26px;
+  top: 149px;
+  outline: solid 1px #28282866;
+  outline-offset: -1px;
+  border-radius: 5px;
+}
+.searchProductServicesWorkEtc {
+  color: #0006;
+  font-size: 8px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 36px;
+  top: 165px;
+  white-space: nowrap;
+}
+.search {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 208px;
+  top: 165px;
+}
+.inventory {
+  color: #4f0da3;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 134px;
+  top: 74px;
+  white-space: nowrap;
+}
+.rectangle215 {
+  width: 114px;
+  height: 39px;
+  position: absolute;
+  left: 243px;
+  top: 149px;
+  border-radius: 5px;
+  background-color: #4f0da3;
+}
+.outlet {
+  color: #fff;
+  font-size: 12px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 282px;
+  top: 162px;
+  white-space: nowrap;
+}
+.rectangle199 {
+  width: 377px;
+  height: 77px;
+  position: absolute;
+  left: 0;
+  top: 736px;
+  background-color: #fff;
+}
+.rectangle195 {
+  width: 343px;
+  height: 43px;
+  position: absolute;
+  left: 16px;
+  top: 736px;
+  border-radius: 8px;
+  background-color: #4f0da3;
+}
+.addYourProduct {
+  color: #fff;
+  font-size: 14px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 750px;
+  white-space: nowrap;
+}
+.ellipse14 {
+  position: absolute;
+  left: 6.1333%;
+  right: 81.3332%;
+  top: 6.0903%;
+  bottom: 88.998%;
+  overflow: visible;
+}
+.arrowLeft {
+  width: 25.3799px;
+  height: 20px;
+  position: absolute;
+  left: 33.34px;
+  top: 77px;
+  overflow: visible;
+}
