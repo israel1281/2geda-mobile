@@ -8,7 +8,7 @@ interface Props {
   className?: string;
   classes?: {
     _2GEDA11?: string;
-    unlockBusinessAndPersonalPoten?: string;
+    connectWithBusinessAroundYourL?: string;
     meetProspectiveClientsAndVendo?: string;
     rectangle4?: string;
     ellipse3?: string;
@@ -26,11 +26,15 @@ export const Onboarding: FC<Props> = memo(function Onboarding(props = {}) {
         className={`${classes._2GEDA11} ${props.classes?._2GEDA11 || ""}`}
       ></div>
       <div
-        className={`${classes.unlockBusinessAndPersonalPoten} ${
-          props.classes?.unlockBusinessAndPersonalPoten || ""
+        className={`${classes.connectWithBusinessAroundYourL} ${
+          props.classes?.connectWithBusinessAroundYourL || ""
         }`}
       >
-        Unlock Business and Personal Potentials
+        Connect with
+        <br />
+        Business around
+        <br />
+        your locality
       </div>
       <div
         className={`${classes.meetProspectiveClientsAndVendo} ${
