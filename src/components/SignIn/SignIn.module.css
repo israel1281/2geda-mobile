@@ -1,0 +1,177 @@
+.root {
+  height: 100%;
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+._2GEDA11 {
+  width: 49px;
+  height: 50px;
+  position: absolute;
+  left: 294px;
+  top: 85px;
+  background-image:/* webpackIgnore: true */ url("assets/_2GEDA11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signInWithPhoneNumber {
+  color: #000c;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: 267px;
+  height: 136px;
+  position: absolute;
+  left: 32px;
+  top: 160px;
+}
+.rectangle3 {
+  width: 321px;
+  height: 58px;
+  position: absolute;
+  left: 27px;
+  top: 699px;
+  border-radius: 10px;
+  background-color: #4f0da3;
+}
+.signIn {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 153px;
+  top: 717px;
+  white-space: nowrap;
+}
+.inputPhoneNumber {
+  color: #0006;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 125px;
+  top: 220px;
+  white-space: nowrap;
+}
+.rectangle5 {
+  width: 230px;
+  height: 53px;
+  position: absolute;
+  left: 107px;
+  top: 199px;
+  outline: solid 1px #28282880;
+  outline-offset: -1px;
+  border-radius: 8px;
+}
+.rectangle6 {
+  width: 65px;
+  height: 53px;
+  position: absolute;
+  left: 32px;
+  top: 199px;
+  outline: solid 1px #28282880;
+  outline-offset: -1px;
+  border-radius: 8px;
+}
+.group22 {
+  width: 26.0001px;
+  height: 17.0666px;
+  position: absolute;
+  left: 39px;
+  top: 218px;
+  overflow: visible;
+}
+._234 {
+  color: #000c;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 68px;
+  top: 220px;
+  white-space: nowrap;
+}
+.ellipse14 {
+  position: absolute;
+  left: 6.9333%;
+  right: 80.5333%;
+  top: 9.7289%;
+  bottom: 84.1133%;
+  overflow: visible;
+}
+.arrowLeft {
+  width: 25.3799px;
+  height: 20px;
+  position: absolute;
+  left: 36.34px;
+  top: 94px;
+  overflow: visible;
+}
+.useEmailInstead {
+  color: #4f0da3;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 32px;
+  top: 392px;
+  white-space: nowrap;
+}
+.forgetPassword {
+  color: #000c;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 225px;
+  top: 342px;
+  white-space: nowrap;
+}
+.signUpHere {
+  color: #000c;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 342px;
+  white-space: nowrap;
+}
+.password {
+  color: #0006;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 288px;
+  white-space: nowrap;
+}
+.rectangle52 {
+  width: 311px;
+  height: 53px;
+  position: absolute;
+  left: 32px;
+  top: 267px;
+  outline: solid 1px #28282880;
+  outline-offset: -1px;
+  border-radius: 8px;
+}
+.remove_red_eye {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 302px;
+  top: 283px;
+}
