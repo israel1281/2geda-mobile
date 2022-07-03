@@ -1,5 +1,5 @@
-import { FC, memo } from "react";
-
+import React, { FC, memo } from "react";
+import { useNavigate } from "react-router-dom";
 import { ArrowLeftIcon } from "./ArrowLeftIcon";
 import { Ellipse14Icon } from "./Ellipse14Icon";
 import classes from "./Signup.module.css";
@@ -19,7 +19,15 @@ interface Props {
     weLlVerifyTheEmailProvidedToBe?: string;
   };
 }
+
+interface signup {
+  email: string;
+}
 export const Signup: FC<Props> = memo(function Signup(props = {}) {
+  const [userData, setUserData] = React.useState<Partial<signup>>({});
+
+  const navigate = useNavigate();
+
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
       <div
@@ -32,35 +40,24 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
       >
         Sign up with email
       </div>
-      <div
+      <button
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      ></div>
-      <div className={`${classes.continue} ${props.classes?.continue || ""}`}>
-        Continue
-      </div>
-      <div
-        className={`${classes.inputEmailAddress} ${
-          props.classes?.inputEmailAddress || ""
-        }`}
       >
-        Input email address
-      </div>
-      <div
+        Continue
+      </button>
+      <input
+        type="email"
+        value={userData.email || ""}
+        onChange={(e) => setUserData({ ...userData, email: e.target.value })}
+        placeholder="Input email address"
         className={`${classes.rectangle5} ${props.classes?.rectangle5 || ""}`}
-      ></div>
+      />
       <Ellipse14Icon
         className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
       />
       <ArrowLeftIcon
         className={`${classes.arrowLeft} ${props.classes?.arrowLeft || ""}`}
       />
-      <div
-        className={`${classes.usePhoneNumberInstead} ${
-          props.classes?.usePhoneNumberInstead || ""
-        }`}
-      >
-        Use Phone number instead
-      </div>
       <div
         className={`${classes.weLlVerifyTheEmailProvidedToBe} ${
           props.classes?.weLlVerifyTheEmailProvidedToBe || ""

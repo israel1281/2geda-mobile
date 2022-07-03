@@ -1,9 +1,7 @@
-import { FC, memo } from "react";
-
+import React, { FC, memo } from "react";
+import { useNavigate } from "react-router-dom";
 import { ArrowLeftIcon } from "./ArrowLeftIcon";
 import { Ellipse14Icon } from "./Ellipse14Icon";
-import { Group22Icon } from "./Group22Icon";
-import { Remove_red_eyeIcon } from "./Remove_red_eyeIcon";
 import classes from "./SignIn.module.css";
 
 interface Props {
@@ -28,7 +26,17 @@ interface Props {
     remove_red_eye?: string;
   };
 }
+
+interface signin {
+  email: string;
+  password: string;
+}
+
 export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
+  const [userData, setUserData] = React.useState<Partial<signin>>({});
+
+  const navigate = useNavigate();
+
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
       <div
@@ -43,11 +51,15 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
       </div>
       <input
         type="email"
+        value={userData.email || ""}
+        onChange={(e) => setUserData({ ...userData, email: e.target.value })}
         placeholder="Input Phone number"
         className={`${classes.rectangle5} ${props.classes?.rectangle5 || ""}`}
       />
       <input
         placeholder="Password"
+        value={userData.password || ""}
+        onChange={(e) => setUserData({ ...userData, password: e.target.value })}
         type="password"
         className={`${classes.rectangle52} ${props.classes?.rectangle52 || ""}`}
       />
@@ -58,26 +70,21 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
         className={`${classes.arrowLeft} ${props.classes?.arrowLeft || ""}`}
       />
       <div
-        className={`${classes.useEmailInstead} ${
-          props.classes?.useEmailInstead || ""
-        }`}
-      >
-        Use Email instead
-      </div>
-      <div
         className={`${classes.forgetPassword} ${
           props.classes?.forgetPassword || ""
         }`}
       >
         Forget Password?
       </div>
-      <div
+      <button
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      ></div>
-      <div className={`${classes.signIn} ${props.classes?.signIn || ""}`}>
-        Sign in
-      </div>
+      >
+        sign in
+      </button>
       <div
+        onClick={() => {
+          navigate("/signup");
+        }}
         className={`${classes.signUpHere} ${props.classes?.signUpHere || ""}`}
       >
         Sign up here
