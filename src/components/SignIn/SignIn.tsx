@@ -39,31 +39,18 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
           props.classes?.signInWithPhoneNumber || ""
         }`}
       >
-        Sign in with Phone number
+        Sign in with your email
       </div>
-      <div
-        className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      ></div>
-      <div className={`${classes.signIn} ${props.classes?.signIn || ""}`}>
-        Sign in
-      </div>
-      <div
-        className={`${classes.inputPhoneNumber} ${
-          props.classes?.inputPhoneNumber || ""
-        }`}
-      >
-        Input Phone number
-      </div>
-      <div
+      <input
+        type="email"
+        placeholder="Input Phone number"
         className={`${classes.rectangle5} ${props.classes?.rectangle5 || ""}`}
-      ></div>
-      <div
-        className={`${classes.rectangle6} ${props.classes?.rectangle6 || ""}`}
-      ></div>
-      <Group22Icon
-        className={`${classes.group22} ${props.classes?.group22 || ""}`}
       />
-      <div className={`${classes._234} ${props.classes?._234 || ""}`}>+234</div>
+      <input
+        placeholder="Password"
+        type="password"
+        className={`${classes.rectangle52} ${props.classes?.rectangle52 || ""}`}
+      />
       <Ellipse14Icon
         className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
       />
@@ -85,21 +72,16 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
         Forget Password?
       </div>
       <div
+        className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+      ></div>
+      <div className={`${classes.signIn} ${props.classes?.signIn || ""}`}>
+        Sign in
+      </div>
+      <div
         className={`${classes.signUpHere} ${props.classes?.signUpHere || ""}`}
       >
         Sign up here
       </div>
-      <div className={`${classes.password} ${props.classes?.password || ""}`}>
-        Password
-      </div>
-      <div
-        className={`${classes.rectangle52} ${props.classes?.rectangle52 || ""}`}
-      ></div>
-      <Remove_red_eyeIcon
-        className={`${classes.remove_red_eye} ${
-          props.classes?.remove_red_eye || ""
-        }`}
-      />
     </div>
   );
 });

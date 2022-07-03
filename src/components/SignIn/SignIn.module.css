@@ -1,5 +1,6 @@
 .root {
   height: 100%;
+  width: 100%;
   flex: 1;
   align-self: stretch;
   align-items: flex-start;
@@ -10,8 +11,8 @@
 ._2GEDA11 {
   width: 49px;
   height: 50px;
-  position: absolute;
-  left: 294px;
+  position: relative;
+  left: 80%;
   top: 85px;
   background-image:/* webpackIgnore: true */ url("assets/_2GEDA11.png");
   background-position: center;
@@ -33,9 +34,9 @@
 .rectangle3 {
   width: 321px;
   height: 58px;
-  position: absolute;
+  position: relative;
   left: 27px;
-  top: 699px;
+  top: 90%;
   border-radius: 10px;
   background-color: #4f0da3;
 }
@@ -62,14 +63,17 @@
   white-space: nowrap;
 }
 .rectangle5 {
-  width: 230px;
+  width: 80%;
   height: 53px;
-  position: absolute;
-  left: 107px;
+  position: relative;
+  left: -5%;
   top: 199px;
   outline: solid 1px #28282880;
   outline-offset: -1px;
   border-radius: 8px;
+  font-size: 12px;
+  font-weight: 300;
+  padding-left: 20px;
 }
 .rectangle6 {
   width: 65px;
@@ -159,14 +163,19 @@
   white-space: nowrap;
 }
 .rectangle52 {
-  width: 311px;
+  width: 80%;
   height: 53px;
-  position: absolute;
-  left: 32px;
+  position: relative;
+  left: -85%;
   top: 267px;
   outline: solid 1px #28282880;
   outline-offset: -1px;
   border-radius: 8px;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  padding-left: 20px;
 }
 .remove_red_eye {
   width: 24px;
