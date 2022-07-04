@@ -1,8 +1,6 @@
 import { FC, memo } from "react";
 
 import { ArrowLeftIcon } from "./ArrowLeftIcon";
-import { BriefcaseIcon } from "./BriefcaseIcon";
-import { CheckIcon } from "./CheckIcon";
 import { Ellipse14Icon } from "./Ellipse14Icon";
 import { Group16Icon } from "./Group16Icon";
 import classes from "./ProfileDetails.module.css";
@@ -54,9 +52,9 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
       >
         Profile details
       </div>
-      <div
+      <button
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      ></div>
+      ></button>
       <div
         className={`${classes.createAccount} ${
           props.classes?.createAccount || ""
@@ -67,27 +65,35 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
       <div className={`${classes.lastName} ${props.classes?.lastName || ""}`}>
         Last name
       </div>
-      <div
+      <input
+        type="text"
+        placeholder="Last name"
         className={`${classes.rectangle5} ${props.classes?.rectangle5 || ""}`}
-      ></div>
+      />
       <div className={`${classes.firstName} ${props.classes?.firstName || ""}`}>
         First name
       </div>
-      <div
+      <input
+        type="text"
+        placeholder="First name"
         className={`${classes.rectangle52} ${props.classes?.rectangle52 || ""}`}
-      ></div>
+      />
       <div className={`${classes.work} ${props.classes?.work || ""}`}>Work</div>
-      <div
+      <input
+        type="text"
+        placeholder="work"
         className={`${classes.rectangle53} ${props.classes?.rectangle53 || ""}`}
-      ></div>
+      />
       <div
         className={`${classes.currentCity} ${props.classes?.currentCity || ""}`}
       >
         Current city
       </div>
-      <div
+      <input
+        type="text"
+        placeholder="Current city"
         className={`${classes.rectangle54} ${props.classes?.rectangle54 || ""}`}
-      ></div>
+      />
       <div
         className={`${classes.createPassword} ${
           props.classes?.createPassword || ""
@@ -95,9 +101,11 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
       >
         Create Password
       </div>
-      <div
+      <input
+        type="text"
+        placeholder="Create Password"
         className={`${classes.rectangle55} ${props.classes?.rectangle55 || ""}`}
-      ></div>
+      />
       <Ellipse14Icon
         className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
       />
@@ -123,15 +131,17 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
       >
         Date of Birth
       </div>
-      <div
+      <input
+        type="date"
         className={`${classes.rectangle56} ${props.classes?.rectangle56 || ""}`}
-      ></div>
+      />
       <Group16Icon
         className={`${classes.group16} ${props.classes?.group16 || ""}`}
       />
-      <div
+      <input
+        type="radio"
         className={`${classes.rectangle4} ${props.classes?.rectangle4 || ""}`}
-      ></div>
+      />
       <div
         className={`${classes.iAgreeWithThePrivacyPolicyAndT} ${
           props.classes?.iAgreeWithThePrivacyPolicyAndT || ""
@@ -141,14 +151,10 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
         <br />
         of 2geda
       </div>
-      <CheckIcon className={`${classes.check} ${props.classes?.check || ""}`} />
       <Remove_red_eyeIcon
         className={`${classes.remove_red_eye} ${
           props.classes?.remove_red_eye || ""
         }`}
-      />
-      <BriefcaseIcon
-        className={`${classes.briefcase} ${props.classes?.briefcase || ""}`}
       />
     </div>
   );
