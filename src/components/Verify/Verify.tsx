@@ -1,8 +1,7 @@
 import { FC, memo } from "react";
-
+import { useNavigate } from "react-router-dom";
 import { ArrowLeftIcon } from "./ArrowLeftIcon";
 import { Ellipse14Icon } from "./Ellipse14Icon";
-import { Group15Icon } from "./Group15Icon";
 import classes from "./Verify.module.css";
 
 interface Props {
@@ -21,6 +20,8 @@ interface Props {
   };
 }
 export const Verify: FC<Props> = memo(function Verify(props = {}) {
+  const navigate = useNavigate();
+
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
       <div
@@ -34,6 +35,9 @@ export const Verify: FC<Props> = memo(function Verify(props = {}) {
         Please verify your email
       </div>
       <button
+        onClick={() => {
+          navigate("/profile-details");
+        }}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
       ></button>
       <div className={`${classes.verify} ${props.classes?.verify || ""}`}>
