@@ -24,9 +24,15 @@ interface signup {
   email: string;
 }
 export const Signup: FC<Props> = memo(function Signup(props = {}) {
+  const [loading, setLoading] = React.useState<boolean>(false);
   const [userData, setUserData] = React.useState<Partial<signup>>({});
 
   const navigate = useNavigate();
+
+  const Signup = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setLoading(!loading);
+  };
 
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
@@ -41,11 +47,9 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
         Sign up with email
       </div>
       <button
-      onClick={
-        () => {
-          navigate("/verify-token")
-        }
-      }
+        onClick={() => {
+          navigate("/verify-token");
+        }}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
       >
         Continue
