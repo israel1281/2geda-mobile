@@ -1,5 +1,5 @@
 import { FC, memo } from "react";
-
+import { useNavigate } from "react-router-dom";
 import { Ellipse3Icon } from "./Ellipse3Icon";
 import { Ellipse4Icon } from "./Ellipse4Icon";
 import classes from "./Onboarding.module.css";
@@ -20,6 +20,8 @@ interface Props {
   };
 }
 export const Onboarding: FC<Props> = memo(function Onboarding(props = {}) {
+  const navigate = useNavigate();
+
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
       <div
@@ -54,6 +56,9 @@ export const Onboarding: FC<Props> = memo(function Onboarding(props = {}) {
         className={`${classes.ellipse4} ${props.classes?.ellipse4 || ""}`}
       />
       <div
+        onClick={() => {
+          navigate("/signup");
+        }}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
       ></div>
       <div
@@ -64,6 +69,9 @@ export const Onboarding: FC<Props> = memo(function Onboarding(props = {}) {
         Open an account
       </div>
       <div
+        onClick={() => {
+          navigate("/signin");
+        }}
         className={`${classes.rectangle32} ${props.classes?.rectangle32 || ""}`}
       ></div>
       <div className={`${classes.signIn} ${props.classes?.signIn || ""}`}>
