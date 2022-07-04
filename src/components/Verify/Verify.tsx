@@ -33,9 +33,9 @@ export const Verify: FC<Props> = memo(function Verify(props = {}) {
       >
         Please verify your email
       </div>
-      <div
+      <button
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      ></div>
+      ></button>
       <div className={`${classes.verify} ${props.classes?.verify || ""}`}>
         Verify
       </div>
@@ -45,7 +45,9 @@ export const Verify: FC<Props> = memo(function Verify(props = {}) {
       <ArrowLeftIcon
         className={`${classes.arrowLeft} ${props.classes?.arrowLeft || ""}`}
       />
-      <Group15Icon
+      <input
+        type="text"
+        placeholder="enter otp sent "
         className={`${classes.group15} ${props.classes?.group15 || ""}`}
       />
       <div

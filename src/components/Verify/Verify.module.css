@@ -36,7 +36,8 @@
   left: 27px;
   top: 699px;
   border-radius: 10px;
-  background-color: #4f0da380;
+  /*background-color: #4f0da380;*/
+  background-color: #4f0da3;
 }
 .verify {
   color: #fff;
@@ -66,12 +67,13 @@
   overflow: visible;
 }
 .group15 {
-  width: 256px;
+  width: 300px;
   height: 53px;
   position: absolute;
   left: 32px;
   top: 227px;
-  overflow: visible;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 .weSentA4DigitsCodeToYourEmail {
   color: #0006;

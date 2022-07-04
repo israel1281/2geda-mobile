@@ -41,6 +41,11 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
         Sign up with email
       </div>
       <button
+      onClick={
+        () => {
+          navigate("/verify-token")
+        }
+      }
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
       >
         Continue
