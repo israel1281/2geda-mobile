@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const postAPI = async (url: string, post: object, token?: string) => {
   const res = await axios.post(`/api/${url}`, post, {
-    headers: { Authorization: token }
+    headers: { Authorization: "Bearer " + token }
   });
 
   return res;
