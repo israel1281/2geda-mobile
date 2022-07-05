@@ -5,6 +5,7 @@ import { Ellipse14Icon } from "./Ellipse14Icon";
 import classes from "./Verify.module.css";
 import { successAlert, errorAlert } from "../../utils/Alert";
 import { patchAPI } from "../../utils/fetchDataApi";
+import Logo from "../../Assets/_2GEDA11.png";
 
 interface Props {
   className?: string;
@@ -111,9 +112,11 @@ export const Verify: FC<Props> = memo(function Verify(props = {}) {
 
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
-      <div
+      <img
+        src={Logo}
+        alt="logo"
         className={`${classes._2GEDA11} ${props.classes?._2GEDA11 || ""}`}
-      ></div>
+      />
       <div
         className={`${classes.pleaseVerifyYourEmail} ${
           props.classes?.pleaseVerifyYourEmail || ""

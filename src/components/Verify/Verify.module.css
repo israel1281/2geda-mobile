@@ -1,40 +1,42 @@
 .root {
+  width: 100%;
   height: 100%;
   flex: 1;
   align-self: stretch;
   align-items: flex-start;
-  position: relative;
+  position: fixed;
   background-color: #fff;
   overflow: hidden;
 }
 ._2GEDA11 {
-  width: 49px;
+  width: 25%;
   height: 50px;
-  position: absolute;
-  left: 294px;
-  top: 85px;
-  background-image:/* webpackIgnore: true */ url("assets/_2GEDA11.png");
+  position: relative;
+  left: 70%;
+  top: 12%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 1px solid black;
 }
 .pleaseVerifyYourEmail {
   color: #000c;
+  border: 1px solid black;
   font-size: 20px;
   font-weight: 500;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 32px;
+  position: relative;
+  left: -17%;
   top: 160px;
   white-space: nowrap;
 }
 .rectangle3 {
-  width: 321px;
+  width: 90%;
   height: 58px;
-  position: absolute;
-  left: 27px;
-  top: 699px;
+  position: relative;
+  left: -92%;
+  top: 80%;
   border-radius: 10px;
   /*background-color: #4f0da380;*/
   background-color: #4f0da3;
@@ -51,7 +53,7 @@
   white-space: nowrap;
 }
 .ellipse14 {
-  position: absolute;
+  position: relative;
   left: 6.9333%;
   right: 80.5333%;
   top: 9.7289%;
@@ -59,40 +61,51 @@
   overflow: visible;
 }
 .arrowLeft {
-  width: 25.3799px;
+  width: 10%;
   height: 20px;
-  position: absolute;
-  left: 36.34px;
-  top: 94px;
+  position: relative;
+  right: 286%;
+  top: 14%;
   overflow: visible;
+  border: 1px solid black;
 }
 .group15 {
-  width: 300px;
+  width: 90%;
   height: 53px;
-  position: absolute;
-  left: 32px;
-  top: 227px;
+  position: relative;
   border: 1px solid black;
-  border-radius: 10px;
+  right: 300%;
+  top: 199px;
+  outline: solid 1px #28282880;
+  outline-offset: -1px;
+  border-radius: 8px;
+  color: #0006;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  padding-left: 20px;
 }
 .weSentA4DigitsCodeToYourEmail {
   color: #0006;
   font-size: 12px;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
+  position: relative;
   left: 32px;
-  top: 188px;
+  top: 50%;
   white-space: nowrap;
 }
 ._042 {
   color: #000c;
+  width: 5%;
+  border: 1px solid black;
   font-size: 15px;
   font-weight: 500;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 168px;
+  position: relative;
+  left: -400%;
   top: 319px;
   white-space: nowrap;
 }
@@ -101,7 +114,7 @@
   font-size: 12px;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
+  position: relative;
   left: 107px;
   top: 344px;
   white-space: nowrap;
