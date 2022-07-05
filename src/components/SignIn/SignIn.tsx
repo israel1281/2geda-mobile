@@ -61,7 +61,7 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
         setLoading(false);
         sessionStorage.setItem("access_token", res.data.access_token);
         sessionStorage.setItem("currentUser", JSON.stringify(res.data.user.id));
-        navigate("/dashboard");
+        navigate("/home");
       })
       .catch((err: any) => {
         if (err) {

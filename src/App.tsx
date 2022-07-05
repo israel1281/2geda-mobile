@@ -7,6 +7,7 @@ import { Verify } from "./components/Verify/Verify";
 import { Onboarding } from "./components/Onboarding/Onboarding";
 import { ProfileDetails } from "./components/ProfileDetails/ProfileDetails";
 import { ForgetPassword } from "./components/ForgetPassword/ForgetPassword";
+import { Home } from "./components/Home/Home";
 
 interface Props {
   className?: string;
@@ -22,6 +23,7 @@ export const App: FC<Props> = memo(function App(props = {}) {
           <Route path="/verify-token" element={<Verify />} />
           <Route path="/forget-password" element={<ForgetPassword />} />
           <Route path="/profile-details" element={<ProfileDetails />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>

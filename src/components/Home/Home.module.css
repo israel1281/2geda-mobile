@@ -1,0 +1,2169 @@
+.root {
+  height: 3651px;
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+.frame8 {
+  width: 360px;
+  height: 523px;
+  align-items: flex-start;
+  position: absolute;
+  left: 8px;
+  top: 317px;
+}
+.rectangle35 {
+  width: 360px;
+  height: 426px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.drSalemLawal {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 180px;
+  height: 19px;
+  position: absolute;
+  left: 88px;
+  top: 34px;
+}
+.lagosNigeria {
+  color: #000;
+  font-size: 8px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 110px;
+  height: 10px;
+  position: absolute;
+  left: 89px;
+  top: 64px;
+}
+._1hrAgo {
+  color: #000;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 37px;
+  height: 12px;
+  position: absolute;
+  left: 293px;
+  top: 22px;
+}
+.pharmacist {
+  color: #000;
+  font-size: 8px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 115px;
+  height: 10px;
+  position: absolute;
+  left: 88px;
+  top: 52px;
+}
+.label {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label2 {
+  color: #4f0da3;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.labelWrapper {
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.thisIsTheOpportunityToJoinTheW {
+  width: 320px;
+  height: 59px;
+  position: absolute;
+  left: 27px;
+  top: 96px;
+}
+.unsplashSq5P00L7lXc {
+  width: 313px;
+  height: 187px;
+  position: absolute;
+  left: 24px;
+  top: 167px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/unsplashSq5P00L7lXc.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.options {
+  width: 32px;
+  height: 10px;
+  position: absolute;
+  left: 301px;
+  top: 372px;
+  overflow: visible;
+}
+.line2 {
+  width: 190px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  position: absolute;
+  left: 89px;
+  top: 81px;
+  overflow: visible;
+}
+.vector {
+  position: absolute;
+  left: 22.2222%;
+  right: 71.6666%;
+  top: 71.1281%;
+  bottom: 24.4741%;
+  overflow: visible;
+}
+.group {
+  position: absolute;
+  left: 52.6946%;
+  right: 39.8204%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group2 {
+  position: absolute;
+  left: 6.0925%;
+  right: 86.6313%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group3 {
+  position: absolute;
+  left: 37.1257%;
+  right: 55.3891%;
+  top: 70.8008%;
+  bottom: 24.2247%;
+  overflow: visible;
+}
+._32K {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 24px;
+  top: 405px;
+}
+._115 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 18px;
+  height: 12px;
+  position: absolute;
+  left: 82px;
+  top: 405px;
+}
+._5 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  left: 143px;
+  top: 405px;
+}
+._13K {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 191px;
+  top: 405px;
+}
+.ellipse21 {
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  left: 164px;
+  top: 244px;
+  overflow: visible;
+}
+.polygon1 {
+  width: 26.4783px;
+  height: 26.4783px;
+  position: absolute;
+  left: 167.0659px;
+  top: 247.1611px;
+  overflow: visible;
+}
+.ellipse17 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 31px;
+  overflow: visible;
+}
+.rectangle36 {
+  width: 360px;
+  height: 94px;
+  position: absolute;
+  left: 0;
+  top: 429px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.comment {
+  color: #000c;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 49px;
+  height: 12px;
+  position: absolute;
+  left: 14px;
+  top: 439px;
+}
+.yourCommentGoesHere {
+  color: #00000080;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 114px;
+  height: 12px;
+  position: absolute;
+  left: 20px;
+  top: 468px;
+}
+.seeAllComments {
+  color: #000c;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 87px;
+  height: 12px;
+  position: absolute;
+  left: 246px;
+  top: 503px;
+}
+.rectangle37 {
+  width: 326px;
+  height: 38px;
+  position: absolute;
+  left: 11px;
+  top: 455px;
+  overflow: visible;
+}
+.rectangle38 {
+  width: 76px;
+  height: 38px;
+  position: absolute;
+  left: 261px;
+  top: 455px;
+  overflow: visible;
+}
+.post {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 27px;
+  height: 15px;
+  position: absolute;
+  left: 286px;
+  top: 467px;
+}
+.star1 {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 62px;
+  top: 67px;
+  overflow: visible;
+}
+.checkCircle {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 65px;
+  top: 70px;
+}
+.frame5 {
+  width: 360px;
+  height: 523px;
+  align-items: flex-start;
+  position: absolute;
+  left: 8px;
+  top: 1939px;
+}
+.rectangle352 {
+  width: 360px;
+  height: 426px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.ruthObe {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 180px;
+  height: 19px;
+  position: absolute;
+  left: 88px;
+  top: 34px;
+}
+.lagosNigeria2 {
+  color: #000;
+  font-size: 8px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 110px;
+  height: 10px;
+  position: absolute;
+  left: 89px;
+  top: 64px;
+}
+._1hrAgo2 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 37px;
+  height: 12px;
+  position: absolute;
+  left: 293px;
+  top: 22px;
+}
+.professionalTechConsultant {
+  color: #000;
+  font-size: 8px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 115px;
+  height: 10px;
+  position: absolute;
+  left: 88px;
+  top: 52px;
+}
+.label3 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label4 {
+  color: #4f0da3;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.labelWrapper2 {
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.thisIsTheOpportunityToJoinTheW2 {
+  width: 320px;
+  height: 59px;
+  position: absolute;
+  left: 27px;
+  top: 96px;
+}
+.unsplashXKimW0pke6w {
+  width: 313px;
+  height: 187px;
+  position: absolute;
+  left: 24px;
+  top: 167px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/unsplashXKimW0pke6w.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.options2 {
+  width: 32px;
+  height: 10px;
+  position: absolute;
+  left: 301px;
+  top: 372px;
+  overflow: visible;
+}
+.line22 {
+  width: 190px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  position: absolute;
+  left: 89px;
+  top: 81px;
+  overflow: visible;
+}
+.vector2 {
+  position: absolute;
+  left: 22.2222%;
+  right: 71.6666%;
+  top: 71.1281%;
+  bottom: 24.4741%;
+  overflow: visible;
+}
+.group4 {
+  position: absolute;
+  left: 52.6946%;
+  right: 39.8204%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group5 {
+  position: absolute;
+  left: 6.0925%;
+  right: 86.6313%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group6 {
+  position: absolute;
+  left: 37.1257%;
+  right: 55.3891%;
+  top: 70.8008%;
+  bottom: 24.2247%;
+  overflow: visible;
+}
+._32K2 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 24px;
+  top: 405px;
+}
+._1152 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 18px;
+  height: 12px;
+  position: absolute;
+  left: 82px;
+  top: 405px;
+}
+._52 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  left: 143px;
+  top: 405px;
+}
+._13K2 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 191px;
+  top: 405px;
+}
+.ellipse212 {
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  left: 164px;
+  top: 244px;
+  overflow: visible;
+}
+.polygon12 {
+  width: 26.4783px;
+  height: 26.4783px;
+  position: absolute;
+  left: 167.0659px;
+  top: 247.1611px;
+  overflow: visible;
+}
+.ellipse172 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 31px;
+  overflow: visible;
+}
+.rectangle362 {
+  width: 360px;
+  height: 94px;
+  position: absolute;
+  left: 0;
+  top: 429px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.comment2 {
+  color: #000c;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 49px;
+  height: 12px;
+  position: absolute;
+  left: 14px;
+  top: 439px;
+}
+.yourCommentGoesHere2 {
+  color: #00000080;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 114px;
+  height: 12px;
+  position: absolute;
+  left: 20px;
+  top: 468px;
+}
+.seeAllComments2 {
+  color: #000c;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 87px;
+  height: 12px;
+  position: absolute;
+  left: 246px;
+  top: 503px;
+}
+.rectangle372 {
+  width: 326px;
+  height: 38px;
+  position: absolute;
+  left: 11px;
+  top: 455px;
+  overflow: visible;
+}
+.rectangle382 {
+  width: 76px;
+  height: 38px;
+  position: absolute;
+  left: 261px;
+  top: 455px;
+  overflow: visible;
+}
+.post2 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 27px;
+  height: 15px;
+  position: absolute;
+  left: 286px;
+  top: 467px;
+}
+.frame3 {
+  width: 360px;
+  height: 523px;
+  align-items: flex-start;
+  position: absolute;
+  left: 8px;
+  top: 858px;
+}
+.rectangle353 {
+  width: 360px;
+  height: 426px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.drSalemLawal2 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 180px;
+  height: 19px;
+  position: absolute;
+  left: 88px;
+  top: 34px;
+}
+.lagosNigeria3 {
+  color: #000;
+  font-size: 8px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 110px;
+  height: 10px;
+  position: absolute;
+  left: 89px;
+  top: 64px;
+}
+._1hrAgo3 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 37px;
+  height: 12px;
+  position: absolute;
+  left: 293px;
+  top: 22px;
+}
+.pharmacist2 {
+  color: #000;
+  font-size: 8px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 115px;
+  height: 10px;
+  position: absolute;
+  left: 88px;
+  top: 52px;
+}
+.label5 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label6 {
+  color: #4f0da3;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.labelWrapper3 {
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.thisIsTheOpportunityToJoinTheW3 {
+  width: 320px;
+  height: 59px;
+  position: absolute;
+  left: 27px;
+  top: 96px;
+}
+.unsplashSq5P00L7lXc2 {
+  width: 313px;
+  height: 187px;
+  position: absolute;
+  left: 24px;
+  top: 167px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/unsplashSq5P00L7lXc2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.options3 {
+  width: 32px;
+  height: 10px;
+  position: absolute;
+  left: 301px;
+  top: 372px;
+  overflow: visible;
+}
+.line23 {
+  width: 190px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  position: absolute;
+  left: 89px;
+  top: 81px;
+  overflow: visible;
+}
+.vector3 {
+  position: absolute;
+  left: 22.2222%;
+  right: 71.6666%;
+  top: 71.1281%;
+  bottom: 24.4741%;
+  overflow: visible;
+}
+.group7 {
+  position: absolute;
+  left: 52.6946%;
+  right: 39.8204%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group8 {
+  position: absolute;
+  left: 6.0925%;
+  right: 86.6313%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group9 {
+  position: absolute;
+  left: 37.1257%;
+  right: 55.3891%;
+  top: 70.8008%;
+  bottom: 24.2247%;
+  overflow: visible;
+}
+._32K3 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 24px;
+  top: 405px;
+}
+._1153 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 18px;
+  height: 12px;
+  position: absolute;
+  left: 82px;
+  top: 405px;
+}
+._53 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  left: 143px;
+  top: 405px;
+}
+._13K3 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 191px;
+  top: 405px;
+}
+.ellipse213 {
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  left: 164px;
+  top: 244px;
+  overflow: visible;
+}
+.polygon13 {
+  width: 26.4783px;
+  height: 26.4783px;
+  position: absolute;
+  left: 167.0659px;
+  top: 247.1611px;
+  overflow: visible;
+}
+.ellipse173 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 31px;
+  overflow: visible;
+}
+.rectangle363 {
+  width: 360px;
+  height: 94px;
+  position: absolute;
+  left: 0;
+  top: 429px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.comment3 {
+  color: #000c;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 49px;
+  height: 12px;
+  position: absolute;
+  left: 14px;
+  top: 439px;
+}
+.yourCommentGoesHere3 {
+  color: #00000080;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 114px;
+  height: 12px;
+  position: absolute;
+  left: 20px;
+  top: 468px;
+}
+.seeAllComments3 {
+  color: #000c;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 87px;
+  height: 12px;
+  position: absolute;
+  left: 246px;
+  top: 503px;
+}
+.rectangle373 {
+  width: 326px;
+  height: 38px;
+  position: absolute;
+  left: 11px;
+  top: 455px;
+  overflow: visible;
+}
+.rectangle383 {
+  width: 76px;
+  height: 38px;
+  position: absolute;
+  left: 261px;
+  top: 455px;
+  overflow: visible;
+}
+.post3 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 27px;
+  height: 15px;
+  position: absolute;
+  left: 286px;
+  top: 467px;
+}
+.star12 {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 62px;
+  top: 67px;
+  overflow: visible;
+}
+.checkCircle2 {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 65px;
+  top: 70px;
+}
+.frame6 {
+  width: 360px;
+  height: 523px;
+  align-items: flex-start;
+  position: absolute;
+  left: 8px;
+  top: 2480px;
+}
+.rectangle354 {
+  width: 360px;
+  height: 426px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.chimamandaOkoye {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 180px;
+  height: 19px;
+  position: absolute;
+  left: 88px;
+  top: 34px;
+}
+.lagosNigeria4 {
+  color: #000;
+  font-size: 8px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 110px;
+  height: 10px;
+  position: absolute;
+  left: 89px;
+  top: 64px;
+}
+._1hrAgo4 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 37px;
+  height: 12px;
+  position: absolute;
+  left: 293px;
+  top: 22px;
+}
+.educationSpecialist {
+  color: #000;
+  font-size: 8px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 115px;
+  height: 10px;
+  position: absolute;
+  left: 88px;
+  top: 52px;
+}
+.label7 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label8 {
+  color: #4f0da3;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.labelWrapper4 {
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.thisIsTheOpportunityToJoinTheW4 {
+  width: 320px;
+  height: 59px;
+  position: absolute;
+  left: 27px;
+  top: 96px;
+}
+.unsplashHpRGrfOIybc {
+  width: 313px;
+  height: 187px;
+  position: absolute;
+  left: 24px;
+  top: 167px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/unsplashHpRGrfOIybc.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ellipse18 {
+  width: 9px;
+  height: 10px;
+  position: absolute;
+  left: 301px;
+  top: 372px;
+  overflow: visible;
+}
+.ellipse19 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 312px;
+  top: 372px;
+  overflow: visible;
+}
+.ellipse20 {
+  width: 9px;
+  height: 10px;
+  position: absolute;
+  left: 324px;
+  top: 372px;
+  overflow: visible;
+}
+.line24 {
+  width: 190px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  position: absolute;
+  left: 89px;
+  top: 81px;
+  overflow: visible;
+}
+.vector4 {
+  position: absolute;
+  left: 22.2222%;
+  right: 71.6666%;
+  top: 71.1281%;
+  bottom: 24.4741%;
+  overflow: visible;
+}
+.group10 {
+  position: absolute;
+  left: 52.6946%;
+  right: 39.8204%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group11 {
+  position: absolute;
+  left: 6.0925%;
+  right: 86.6313%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group12 {
+  position: absolute;
+  left: 37.1257%;
+  right: 55.3891%;
+  top: 70.8008%;
+  bottom: 24.2247%;
+  overflow: visible;
+}
+._32K4 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 24px;
+  top: 405px;
+}
+._1154 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 18px;
+  height: 12px;
+  position: absolute;
+  left: 82px;
+  top: 405px;
+}
+._54 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  left: 143px;
+  top: 405px;
+}
+._13K4 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 191px;
+  top: 405px;
+}
+.ellipse214 {
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  left: 164px;
+  top: 244px;
+  overflow: visible;
+}
+.polygon14 {
+  width: 26.4783px;
+  height: 26.4783px;
+  position: absolute;
+  left: 167.0659px;
+  top: 247.1611px;
+  overflow: visible;
+}
+.unsplashE9uJ65vwGmE {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 31px;
+  overflow: visible;
+}
+.rectangle364 {
+  width: 360px;
+  height: 94px;
+  position: absolute;
+  left: 0;
+  top: 429px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.comment4 {
+  color: #000c;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 49px;
+  height: 12px;
+  position: absolute;
+  left: 14px;
+  top: 439px;
+}
+.yourCommentGoesHere4 {
+  color: #00000080;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 114px;
+  height: 12px;
+  position: absolute;
+  left: 20px;
+  top: 468px;
+}
+.seeAllComments4 {
+  color: #000c;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 87px;
+  height: 12px;
+  position: absolute;
+  left: 246px;
+  top: 503px;
+}
+.rectangle374 {
+  width: 326px;
+  height: 38px;
+  position: absolute;
+  left: 11px;
+  top: 455px;
+  overflow: visible;
+}
+.rectangle384 {
+  width: 76px;
+  height: 38px;
+  position: absolute;
+  left: 261px;
+  top: 455px;
+  overflow: visible;
+}
+.post4 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 27px;
+  height: 15px;
+  position: absolute;
+  left: 286px;
+  top: 467px;
+}
+.frame4 {
+  width: 360px;
+  height: 523px;
+  align-items: flex-start;
+  position: absolute;
+  left: 8px;
+  top: 1399px;
+}
+.rectangle355 {
+  width: 360px;
+  height: 426px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  background-color: #fff;
+}
+._1hrAgo5 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 37px;
+  height: 12px;
+  position: absolute;
+  left: 293px;
+  top: 22px;
+}
+.label9 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label10 {
+  color: #4f0da3;
+  font-size: 10px;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.labelWrapper5 {
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.checkOutThisAmazingBeachPartyC {
+  width: 320px;
+  height: 59px;
+  position: absolute;
+  left: 27px;
+  top: 96px;
+}
+.unsplashU6t80TWJ1DM {
+  width: 313px;
+  height: 187px;
+  position: absolute;
+  left: 24px;
+  top: 167px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/unsplashU6t80TWJ1DM.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.options4 {
+  width: 32px;
+  height: 10px;
+  position: absolute;
+  left: 301px;
+  top: 372px;
+  overflow: visible;
+}
+.line25 {
+  width: 190px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  position: absolute;
+  left: 89px;
+  top: 81px;
+  overflow: visible;
+}
+.vector5 {
+  position: absolute;
+  left: 22.2222%;
+  right: 71.6666%;
+  top: 71.1281%;
+  bottom: 24.4741%;
+  overflow: visible;
+}
+.group13 {
+  position: absolute;
+  left: 52.6946%;
+  right: 39.8204%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group14 {
+  position: absolute;
+  left: 6.0925%;
+  right: 86.6313%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group15 {
+  position: absolute;
+  left: 37.1257%;
+  right: 55.3891%;
+  top: 70.8008%;
+  bottom: 24.2247%;
+  overflow: visible;
+}
+._32K5 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 24px;
+  top: 405px;
+}
+._1155 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 18px;
+  height: 12px;
+  position: absolute;
+  left: 82px;
+  top: 405px;
+}
+._55 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  left: 143px;
+  top: 405px;
+}
+._13K5 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 191px;
+  top: 405px;
+}
+.group48 {
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  left: 164px;
+  top: 244px;
+  overflow: visible;
+}
+.beccaTouches {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 180px;
+  height: 19px;
+  position: absolute;
+  left: 88px;
+  top: 34px;
+}
+.abujuNigeria {
+  color: #000;
+  font-size: 8px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 110px;
+  height: 10px;
+  position: absolute;
+  left: 89px;
+  top: 64px;
+}
+.travelsAndTourism {
+  color: #000;
+  font-size: 8px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 115px;
+  height: 10px;
+  position: absolute;
+  left: 88px;
+  top: 52px;
+}
+.ellipse174 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 31px;
+  overflow: visible;
+}
+.rectangle365 {
+  width: 360px;
+  height: 94px;
+  position: absolute;
+  left: 0;
+  top: 429px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.comment5 {
+  color: #000c;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 49px;
+  height: 12px;
+  position: absolute;
+  left: 14px;
+  top: 439px;
+}
+.yourCommentGoesHere5 {
+  color: #00000080;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 114px;
+  height: 12px;
+  position: absolute;
+  left: 20px;
+  top: 468px;
+}
+.seeAllComments5 {
+  color: #000c;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 87px;
+  height: 12px;
+  position: absolute;
+  left: 246px;
+  top: 503px;
+}
+.rectangle375 {
+  width: 326px;
+  height: 38px;
+  position: absolute;
+  left: 11px;
+  top: 455px;
+  overflow: visible;
+}
+.rectangle385 {
+  width: 76px;
+  height: 38px;
+  position: absolute;
+  left: 261px;
+  top: 455px;
+  overflow: visible;
+}
+.post5 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 27px;
+  height: 15px;
+  position: absolute;
+  left: 286px;
+  top: 467px;
+}
+.frame7 {
+  width: 360px;
+  height: 523px;
+  align-items: flex-start;
+  position: absolute;
+  left: 8px;
+  top: 3021px;
+}
+.rectangle356 {
+  width: 360px;
+  height: 426px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.tayoAuto {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 180px;
+  height: 19px;
+  position: absolute;
+  left: 88px;
+  top: 34px;
+}
+.lagosNigeria5 {
+  color: #000;
+  font-size: 8px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 110px;
+  height: 10px;
+  position: absolute;
+  left: 89px;
+  top: 64px;
+}
+._1hrAgo6 {
+  color: #000;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 37px;
+  height: 12px;
+  position: absolute;
+  left: 293px;
+  top: 22px;
+}
+.professionalTechConsultant2 {
+  color: #000;
+  font-size: 8px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 115px;
+  height: 10px;
+  position: absolute;
+  left: 88px;
+  top: 52px;
+}
+.label11 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label12 {
+  color: #4f0da3;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.labelWrapper6 {
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.thisIsTheOpportunityToJoinTheW5 {
+  width: 320px;
+  height: 59px;
+  position: absolute;
+  left: 27px;
+  top: 96px;
+}
+.unsplash2swaWy4Xhb0 {
+  width: 313px;
+  height: 187px;
+  position: absolute;
+  left: 24px;
+  top: 167px;
+  background-color: #c4c4c4;
+  background-image:/* webpackIgnore: true */ url('assets/unsplash2swaWy4Xhb0.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ellipse182 {
+  width: 9px;
+  height: 10px;
+  position: absolute;
+  left: 301px;
+  top: 372px;
+  overflow: visible;
+}
+.ellipse192 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 312px;
+  top: 372px;
+  overflow: visible;
+}
+.ellipse202 {
+  width: 9px;
+  height: 10px;
+  position: absolute;
+  left: 324px;
+  top: 372px;
+  overflow: visible;
+}
+.line26 {
+  width: 190px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  position: absolute;
+  left: 89px;
+  top: 81px;
+  overflow: visible;
+}
+.vector6 {
+  position: absolute;
+  left: 22.2222%;
+  right: 71.6666%;
+  top: 71.1281%;
+  bottom: 24.4741%;
+  overflow: visible;
+}
+.group16 {
+  position: absolute;
+  left: 52.6946%;
+  right: 39.8204%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group17 {
+  position: absolute;
+  left: 6.0925%;
+  right: 86.6313%;
+  top: 70.7119%;
+  bottom: 24.1358%;
+  overflow: visible;
+}
+.group18 {
+  position: absolute;
+  left: 37.1257%;
+  right: 55.3891%;
+  top: 70.8008%;
+  bottom: 24.2247%;
+  overflow: visible;
+}
+._32K6 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 24px;
+  top: 405px;
+}
+._1156 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 18px;
+  height: 12px;
+  position: absolute;
+  left: 82px;
+  top: 405px;
+}
+._56 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  left: 143px;
+  top: 405px;
+}
+._13K6 {
+  color: #000;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 191px;
+  top: 405px;
+}
+.ellipse215 {
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  left: 164px;
+  top: 244px;
+  overflow: visible;
+}
+.polygon15 {
+  width: 26.4783px;
+  height: 26.4783px;
+  position: absolute;
+  left: 167.0659px;
+  top: 247.1611px;
+  overflow: visible;
+}
+.unsplashK84vnnzxmTQ {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 31px;
+  overflow: visible;
+}
+.rectangle366 {
+  width: 360px;
+  height: 94px;
+  position: absolute;
+  left: 0;
+  top: 429px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.comment6 {
+  color: #000c;
+  font-size: 10px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 49px;
+  height: 12px;
+  position: absolute;
+  left: 14px;
+  top: 439px;
+}
+.yourCommentGoesHere6 {
+  color: #00000080;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 114px;
+  height: 12px;
+  position: absolute;
+  left: 20px;
+  top: 468px;
+}
+.seeAllComments6 {
+  color: #000c;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 87px;
+  height: 12px;
+  position: absolute;
+  left: 246px;
+  top: 503px;
+}
+.rectangle376 {
+  width: 326px;
+  height: 38px;
+  position: absolute;
+  left: 11px;
+  top: 455px;
+  overflow: visible;
+}
+.rectangle386 {
+  width: 76px;
+  height: 38px;
+  position: absolute;
+  left: 261px;
+  top: 455px;
+  overflow: visible;
+}
+.post6 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 27px;
+  height: 15px;
+  position: absolute;
+  left: 286px;
+  top: 467px;
+}
+.frame2 {
+  width: 357px;
+  height: 32px;
+  align-items: flex-start;
+  position: absolute;
+  left: 18px;
+  top: 274px;
+  background-color: #fff;
+  overflow-x: auto;
+}
+.rectangle43 {
+  width: 93px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  border-radius: 7px;
+  background-color: #4f0da3;
+}
+.feeds {
+  color: #fff;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 8px;
+  white-space: nowrap;
+}
+.rectangle44 {
+  width: 93px;
+  height: 32px;
+  position: absolute;
+  left: 98px;
+  top: 0;
+  outline: solid 1px #00000040;
+  outline-offset: -1px;
+  border-radius: 7px;
+}
+.agro {
+  color: #0c0c0c66;
+  font-size: 15px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 125px;
+  top: 7px;
+  white-space: nowrap;
+}
+.rectangle442 {
+  width: 93px;
+  height: 32px;
+  position: absolute;
+  left: 197px;
+  top: 0;
+  outline: solid 1px #00000040;
+  outline-offset: -1px;
+  border-radius: 7px;
+}
+.agro2 {
+  color: #0c0c0c66;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 224px;
+  top: 7px;
+  white-space: nowrap;
+}
+.rectangle443 {
+  width: 93px;
+  height: 32px;
+  position: absolute;
+  left: 296px;
+  top: 0;
+  outline: solid 1px #00000040;
+  outline-offset: -1px;
+  border-radius: 7px;
+}
+.foods {
+  color: #0c0c0c66;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 322px;
+  top: 7px;
+  white-space: nowrap;
+}
+.rectangle444 {
+  width: 93px;
+  height: 32px;
+  position: absolute;
+  left: 395px;
+  top: 0;
+  outline: solid 1px #00000040;
+  outline-offset: -1px;
+  border-radius: 7px;
+}
+.travels {
+  color: #0c0c0c66;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 418px;
+  top: 7px;
+  white-space: nowrap;
+}
+.rectangle445 {
+  width: 93px;
+  height: 32px;
+  position: absolute;
+  left: 494px;
+  top: 0;
+  outline: solid 1px #00000040;
+  outline-offset: -1px;
+  border-radius: 7px;
+}
+.luxury {
+  color: #0c0c0c66;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 517px;
+  top: 7px;
+  white-space: nowrap;
+}
+.rectangle34 {
+  width: 375px;
+  height: 252px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 4px #0000001a);
+}
+._2GEDA11 {
+  width: 49px;
+  height: 50px;
+  position: absolute;
+  left: 19px;
+  top: 71px;
+  background-image:/* webpackIgnore: true */ url('assets/_2GEDA11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle45 {
+  width: 376px;
+  height: 98px;
+  position: absolute;
+  left: 0;
+  top: 714px;
+  background-color: #fff;
+  box-shadow: 10px 0px 12px 1px #0000000d;
+}
+.house {
+  position: absolute;
+  left: 6.9333%;
+  right: 84.5333%;
+  top: 19.967%;
+  bottom: 79.1563%;
+  overflow: visible;
+}
+.home {
+  color: #4f0da3;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 28px;
+  top: 759px;
+  white-space: nowrap;
+}
+.storefront {
+  position: absolute;
+  left: 26.1332%;
+  right: 65.3332%;
+  top: 19.967%;
+  bottom: 79.1563%;
+  overflow: visible;
+}
+.outlet {
+  color: #28282880;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 99px;
+  top: 761px;
+  white-space: nowrap;
+}
+.messages {
+  color: #28282880;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 230px;
+  top: 761px;
+  white-space: nowrap;
+}
+.vector7 {
+  position: absolute;
+  left: 64%;
+  right: 29.6066%;
+  top: 20.0773%;
+  bottom: 79.2659%;
+  overflow: visible;
+}
+.vector8 {
+  position: absolute;
+  left: 66.8%;
+  right: 32.4%;
+  top: 20.3642%;
+  bottom: 79.5535%;
+  overflow: visible;
+}
+.vector9 {
+  position: absolute;
+  left: 65.2%;
+  right: 34%;
+  top: 20.3642%;
+  bottom: 79.5535%;
+  overflow: visible;
+}
+.vector10 {
+  position: absolute;
+  left: 68.4%;
+  right: 30.8%;
+  top: 20.3642%;
+  bottom: 79.5535%;
+  overflow: visible;
+}
+.notification {
+  color: #28282880;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 302px;
+  top: 761px;
+  white-space: nowrap;
+}
+.bell {
+  position: absolute;
+  left: 83.2%;
+  right: 8.2666%;
+  top: 19.967%;
+  bottom: 79.1563%;
+  overflow: visible;
+}
+.profile {
+  color: #28282880;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 171px;
+  top: 761px;
+  white-space: nowrap;
+}
+.userCircle {
+  position: absolute;
+  left: 45.3333%;
+  right: 46.1333%;
+  top: 19.967%;
+  bottom: 79.1563%;
+  overflow: visible;
+}
+.rectangle32 {
+  width: 266px;
+  height: 39px;
+  position: absolute;
+  left: 82px;
+  top: 76px;
+  outline: solid 1px #28282866;
+  outline-offset: -1px;
+  border-radius: 5px;
+}
+.searchNamesProductsOrServices {
+  color: #0006;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 101px;
+  top: 90px;
+  white-space: nowrap;
+}
+.search {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 323px;
+  top: 90px;
+}
+.easterSales_01v31 {
+  width: 328px;
+  height: 79px;
+  position: absolute;
+  left: 24px;
+  top: 147px;
+  background-image:/* webpackIgnore: true */ url('assets/easterSales_01v31.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image:/* webpackIgnore: true */ url('assets/aD.svg');
+  mask-image:/* webpackIgnore: true */ url('assets/aD.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: -5px 0px;
+  mask-position: -5px 0px;
+  -webkit-mask-size: 338px 79px;
+  mask-size: 338px 79px;
+}
+.ellipse22 {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: 289px;
+  top: 648px;
+  overflow: visible;
+}
+.unnamed {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 310px;
+  top: 657px;
+  white-space: nowrap;
+}
