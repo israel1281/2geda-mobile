@@ -24,7 +24,7 @@ interface Props {
 }
 
 interface signup {
-  email: string;
+  email: string | undefined;
 }
 export const Signup: FC<Props> = memo(function Signup(props = {}) {
   const [loading, setLoading] = React.useState<boolean>(false);
@@ -35,7 +35,7 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
 
   const Signup = () => {
     setLoading(!loading);
-    localStorage.setItem("email", email);
+    localStorage.setItem("email", email || "");
     if (!validateEmail(email)) {
       errorAlert("Your email is required");
       setLoading(false);
