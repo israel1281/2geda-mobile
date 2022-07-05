@@ -4,6 +4,7 @@ import { Ellipse3Icon } from "./Ellipse3Icon";
 import { Ellipse4Icon } from "./Ellipse4Icon";
 import classes from "./Onboarding.module.css";
 import Logo from "../../Assets/_2GEDA11.png";
+import { Carousel } from "antd";
 
 interface Props {
   className?: string;
@@ -20,6 +21,7 @@ interface Props {
     signIn?: string;
   };
 }
+
 export const Onboarding: FC<Props> = memo(function Onboarding(props = {}) {
   const navigate = useNavigate();
 
@@ -73,15 +75,14 @@ export const Onboarding: FC<Props> = memo(function Onboarding(props = {}) {
       >
         Open an account
       </div>
-      <div
+      <button
         onClick={() => {
           navigate("/signin");
         }}
         className={`${classes.rectangle32} ${props.classes?.rectangle32 || ""}`}
-      ></div>
-      <div className={`${classes.signIn} ${props.classes?.signIn || ""}`}>
-        Sign in
-      </div>
+      >
+        signIn
+      </button>
     </div>
   );
 });
