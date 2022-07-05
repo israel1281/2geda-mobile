@@ -5,6 +5,7 @@ import { Ellipse14Icon } from "./Ellipse14Icon";
 import { validateEmail } from "../../utils/validation";
 import { postAPI } from "../../utils/fetchDataApi";
 import { successAlert, errorAlert } from "../../utils/Alert";
+import Logo from "../../Assets/_2GEDA11.png";
 import classes from "./Signup.module.css";
 
 interface Props {
@@ -55,9 +56,11 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
 
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
-      <div
+      <img
+        src={Logo}
+        alt="logo"
         className={`${classes._2GEDA11} ${props.classes?._2GEDA11 || ""}`}
-      ></div>
+      />
       <div
         className={`${classes.signUpWithEmail} ${
           props.classes?.signUpWithEmail || ""
