@@ -39,7 +39,7 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
       errorAlert("Your email is required");
       setLoading(false);
       return;
-    } else return null;
+    }
 
     postAPI("registerUser", userData)
       .then((res: any) => {
