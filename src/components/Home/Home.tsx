@@ -625,7 +625,6 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
         Search names, products or services
       </div>
       <SearchIcon className={`${classes.search} ${props.classes?.search || ''}`} />
-      <StatusBar />
       <div className={`${classes.easterSales_01v31} ${props.classes?.easterSales_01v31 || ''}`}></div>
       <Ellipse22Icon className={`${classes.ellipse22} ${props.classes?.ellipse22 || ''}`} />
       <div className={`${classes.unnamed} ${props.classes?.unnamed || ''}`}>+</div>
