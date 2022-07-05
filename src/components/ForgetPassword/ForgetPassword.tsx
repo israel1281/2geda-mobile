@@ -1,7 +1,10 @@
-import { FC, memo } from "react";
-
+import React, { FC, memo } from "react";
+import { successAlert, errorAlert } from "../../utils/Alert";
+import { useNavigate } from "react-router-dom";
+import { validateEmail } from "../../utils/validation";
 import { ArrowLeftIcon } from "./ArrowLeftIcon";
 import { Ellipse14Icon } from "./Ellipse14Icon";
+import { postAPI } from "../../utils/fetchDataApi";
 import classes from "./ForgetPassword.module.css";
 
 interface Props {
@@ -19,9 +22,55 @@ interface Props {
     weLlSendAVerificationCodeToYou?: string;
   };
 }
+
+interface initialState {
+  email: string | undefined;
+}
+
+interface dataResponse {
+  status: string | null;
+  message: string | null;
+}
 export const ForgetPassword: FC<Props> = memo(function ForgetPassword(
   props = {}
 ) {
+  const [data, setData] = React.useState<Partial<dataResponse>>({
+    message: "",
+    status: ""
+  });
+  const [userData, setUserData] = React.useState<Partial<initialState>>({
+    email: ""
+  });
+
+  const { email } = userData;
+
+  const navigate = useNavigate();
+
+  React.useEffect(() => {
+    if (data.status === "success") {
+      successAlert("success");
+    }
+
+    if (data.status === "error") {
+      errorAlert("error");
+    }
+  }, [data]);
+
+  const handleSubmit = () => {
+    if (!validateEmail(email)) {
+      alert("Your email is required");
+      return;
+    }
+    postAPI("password/email", userData)
+      .then((res) => {
+        localStorage.setItem("email", email || "");
+        setData(res.data);
+      })
+      .catch((err) => {
+        errorAlert(err.response.data.message);
+      });
+  };
+
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
       <div
@@ -35,6 +84,7 @@ export const ForgetPassword: FC<Props> = memo(function ForgetPassword(
         Reset your password
       </div>
       <div
+        onClick={handleSubmit}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
       ></div>
       <div className={`${classes.sendCode} ${props.classes?.sendCode || ""}`}>
@@ -47,9 +97,13 @@ export const ForgetPassword: FC<Props> = memo(function ForgetPassword(
       >
         Input Phone number
       </div>
-      <div
+      <input
+        type="email"
+        value={userData.email || ""}
+        onChange={(e) => setUserData({ ...userData, email: e.target.value })}
+        placeholder="input email address"
         className={`${classes.rectangle5} ${props.classes?.rectangle5 || ""}`}
-      ></div>
+      />
       <Ellipse14Icon
         className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
       />

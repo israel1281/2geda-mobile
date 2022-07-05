@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { ArrowLeftIcon } from "./ArrowLeftIcon";
 import { Ellipse14Icon } from "./Ellipse14Icon";
 import classes from "./SignIn.module.css";
+import { successAlert, errorAlert } from "../../utils/Alert";
+import { validateEmail } from "../../utils/validation";
+import { postAPI } from "../../utils/fetchDataApi";
 
 interface Props {
   className?: string;
@@ -33,9 +36,39 @@ interface signin {
 }
 
 export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
+  const [loading, setLoading] = React.useState<boolean>(false);
   const [userData, setUserData] = React.useState<Partial<signin>>({});
+  const { email, password } = userData;
 
   const navigate = useNavigate();
+
+  const validateForm = () => {
+    if (!validateEmail(email)) {
+      errorAlert("Your email is required");
+      return false;
+    }
+    if (!password || password.length < 6) {
+      errorAlert("Your password is required");
+      return false;
+    }
+  };
+
+  const handleSubmit = () => {
+    setLoading(true);
+    validateForm();
+    postAPI("login", userData)
+      .then((res) => {
+        setLoading(false);
+        sessionStorage.setItem("access_token", res.data.access_token);
+        sessionStorage.setItem("currentUser", JSON.stringify(res.data.user.id));
+        navigate("/dashboard");
+      })
+      .catch((err: any) => {
+        if (err) {
+          errorAlert(err.response.data.message);
+        }
+      });
+  };
 
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
@@ -70,6 +103,9 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
         className={`${classes.arrowLeft} ${props.classes?.arrowLeft || ""}`}
       />
       <div
+        onClick={() => {
+          navigate("/forget-password");
+        }}
         className={`${classes.forgetPassword} ${
           props.classes?.forgetPassword || ""
         }`}
@@ -77,6 +113,7 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
         Forget Password?
       </div>
       <button
+        onClick={handleSubmit}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
       >
         sign in
