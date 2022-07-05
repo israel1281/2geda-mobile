@@ -35,6 +35,7 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
 
   const Signup = () => {
     setLoading(!loading);
+    localStorage.setItem("email", email);
     if (!validateEmail(email)) {
       errorAlert("Your email is required");
       setLoading(false);
@@ -43,6 +44,7 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
 
     postAPI("registerUser", userData)
       .then((res: any) => {
+        setLoading(loading);
         successAlert(res.data.message);
         navigate("/verify-token");
       })
