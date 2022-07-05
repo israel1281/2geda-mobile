@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const postAPI = async (url: string, post: object, token?: string) => {
-  const res = await axios.post(`/api/${url}`, post, {
+  const res = await axios.post(`https://api.2geda.net/api/${url}`, post, {
     headers: { Authorization: "Bearer " + token }
   });
 

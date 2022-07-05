@@ -33,10 +33,7 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
 
   const navigate = useNavigate();
 
-  const Signup = async (
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
-  ) => {
-    event.preventDefault();
+  const Signup = () => {
     setLoading(!loading);
     if (!validateEmail(email)) {
       errorAlert("Your email is required");
@@ -44,15 +41,14 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
       return;
     } else return null;
 
-    try {
-      const response = await postAPI("register", userData);
-      successAlert(response.data.message);
-      console.log(response.data.message);
-      navigate("/verify-token");
-    } catch (err) {
-      errorAlert(err.response.data.message);
-      console.log(err.response.data.message);
-    }
+    postAPI("registerUser", userData)
+      .then((res: any) => {
+        successAlert(res.data.message);
+        navigate("/verify-token");
+      })
+      .catch((err: any) => {
+        errorAlert(err.res.data.message);
+      });
   };
 
   return (
