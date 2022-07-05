@@ -2,6 +2,9 @@ import React, { FC, memo } from "react";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeftIcon } from "./ArrowLeftIcon";
 import { Ellipse14Icon } from "./Ellipse14Icon";
+import { validateEmail } from "../../utils/validation";
+import { postAPI } from "../../utils/fetchDataApi";
+import { successAlert, errorAlert } from "../../utils/Alert";
 import classes from "./Signup.module.css";
 
 interface Props {
@@ -26,12 +29,30 @@ interface signup {
 export const Signup: FC<Props> = memo(function Signup(props = {}) {
   const [loading, setLoading] = React.useState<boolean>(false);
   const [userData, setUserData] = React.useState<Partial<signup>>({});
+  const { email } = userData;
 
   const navigate = useNavigate();
 
-  const Signup = (event: React.FormEvent<HTMLFormElement>) => {
+  const Signup = async (
+    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ) => {
     event.preventDefault();
     setLoading(!loading);
+    if (!validateEmail(email)) {
+      errorAlert("Your email is required");
+      setLoading(false);
+      return;
+    } else return null;
+
+    try {
+      const response = await postAPI("register", userData);
+      successAlert(response.data.message);
+      console.log(response.data.message);
+      navigate("/verify-token");
+    } catch (err) {
+      errorAlert(err.response.data.message);
+      console.log(err.response.data.message);
+    }
   };
 
   return (
@@ -47,9 +68,7 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
         Sign up with email
       </div>
       <button
-        onClick={() => {
-          navigate("/verify-token");
-        }}
+        onClick={Signup}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
       >
         Continue
