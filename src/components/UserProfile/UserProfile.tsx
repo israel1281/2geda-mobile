@@ -1,4 +1,4 @@
-import { FC, memo } from "react";
+import React, { FC, memo } from "react";
 
 import { ArrowLeftIcon } from "./ArrowLeftIcon";
 import { CheckCircleIcon } from "./CheckCircleIcon";
@@ -33,6 +33,8 @@ import { Star1Icon2 } from "./Star1Icon2";
 import classes from "./UserProfile.module.css";
 import { VectorIcon } from "./VectorIcon";
 import { VectorIcon2 } from "./VectorIcon2";
+import { useNavigate } from "react-router-dom"
+import { successAlert, errorAlert } from '../../utils/Alert'
 
 interface Props {
   className?: string;
@@ -122,7 +124,22 @@ interface Props {
     arrowLeft?: string;
   };
 }
+
+interface initialState {
+  email: string | null;
+  password: string;
+  first_name: string;
+  surname: string;
+  username: string;
+}
 export const UserProfile: FC<Props> = memo(function UserProfile(props = {}) {
+  const [userData, setUserData] = React.useState<Partial<initialState>>({
+    email: localStorage.getItem("email"),
+    password: "",
+    first_name: "",
+    surname: "",
+    username: ""
+  })
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
       <Ellipse72Icon
