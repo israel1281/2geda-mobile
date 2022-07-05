@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Ellipse3Icon } from "./Ellipse3Icon";
 import { Ellipse4Icon } from "./Ellipse4Icon";
 import classes from "./Onboarding.module.css";
+import Logo from "../../Assets/_2GEDA11.png";
 
 interface Props {
   className?: string;
@@ -24,9 +25,11 @@ export const Onboarding: FC<Props> = memo(function Onboarding(props = {}) {
 
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
-      <div
+      <img
+        src={Logo}
+        alt="logo"
         className={`${classes._2GEDA11} ${props.classes?._2GEDA11 || ""}`}
-      ></div>
+      />
       <div
         className={`${classes.connectWithBusinessAroundYourL} ${
           props.classes?.connectWithBusinessAroundYourL || ""
@@ -55,12 +58,14 @@ export const Onboarding: FC<Props> = memo(function Onboarding(props = {}) {
       <Ellipse4Icon
         className={`${classes.ellipse4} ${props.classes?.ellipse4 || ""}`}
       />
-      <div
+      <button
         onClick={() => {
           navigate("/signup");
         }}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      ></div>
+      >
+        Open an account
+      </button>
       <div
         className={`${classes.openAnAccount} ${
           props.classes?.openAnAccount || ""
