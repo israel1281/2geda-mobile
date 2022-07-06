@@ -1,25 +1,16 @@
-import React, { FC, memo } from "react";
+import { FC, memo } from "react";
 import Logo from "../../Assets/_2GEDA11.png";
-import { useNavigate } from "react-router-dom";
 import { BellIcon } from "./BellIcon";
+import { BriefcaseIcon } from "./BriefcaseIcon";
 import { CheckCircleIcon } from "./CheckCircleIcon";
-import { CheckCircleIcon2 } from "./CheckCircleIcon2";
+import { DotsthreecircleIcon } from "./DotsthreecircleIcon";
 import { Ellipse17Icon } from "./Ellipse17Icon";
 import { Ellipse17Icon2 } from "./Ellipse17Icon2";
 import { Ellipse17Icon3 } from "./Ellipse17Icon3";
 import { Ellipse17Icon4 } from "./Ellipse17Icon4";
-import { Ellipse18Icon } from "./Ellipse18Icon";
-import { Ellipse18Icon2 } from "./Ellipse18Icon2";
-import { Ellipse19Icon } from "./Ellipse19Icon";
-import { Ellipse19Icon2 } from "./Ellipse19Icon2";
-import { Ellipse20Icon } from "./Ellipse20Icon";
-import { Ellipse20Icon2 } from "./Ellipse20Icon2";
 import { Ellipse21Icon } from "./Ellipse21Icon";
 import { Ellipse21Icon2 } from "./Ellipse21Icon2";
-import { Ellipse21Icon3 } from "./Ellipse21Icon3";
-import { Ellipse21Icon4 } from "./Ellipse21Icon4";
-import { Ellipse21Icon5 } from "./Ellipse21Icon5";
-import { Ellipse22Icon } from "./Ellipse22Icon";
+import { Ellipse72Icon } from "./Ellipse72Icon";
 import { Group48Icon } from "./Group48Icon";
 import { GroupIcon } from "./GroupIcon";
 import { GroupIcon2 } from "./GroupIcon2";
@@ -30,50 +21,28 @@ import { GroupIcon6 } from "./GroupIcon6";
 import { GroupIcon7 } from "./GroupIcon7";
 import { GroupIcon8 } from "./GroupIcon8";
 import { GroupIcon9 } from "./GroupIcon9";
-import { GroupIcon10 } from "./GroupIcon10";
-import { GroupIcon11 } from "./GroupIcon11";
-import { GroupIcon12 } from "./GroupIcon12";
-import { GroupIcon13 } from "./GroupIcon13";
-import { GroupIcon14 } from "./GroupIcon14";
-import { GroupIcon15 } from "./GroupIcon15";
-import { GroupIcon16 } from "./GroupIcon16";
-import { GroupIcon17 } from "./GroupIcon17";
-import { GroupIcon18 } from "./GroupIcon18";
-import classes from "./Home.module.css";
 import { HouseIcon } from "./HouseIcon";
 import { Line2Icon } from "./Line2Icon";
 import { Line2Icon2 } from "./Line2Icon2";
 import { Line2Icon3 } from "./Line2Icon3";
 import { Line2Icon4 } from "./Line2Icon4";
-import { Line2Icon5 } from "./Line2Icon5";
-import { Line2Icon6 } from "./Line2Icon6";
+import { Line11Icon } from "./Line11Icon";
+import { Line13Icon } from "./Line13Icon";
+import { MappinIcon } from "./MappinIcon";
 import { OptionsIcon } from "./OptionsIcon";
 import { OptionsIcon2 } from "./OptionsIcon2";
 import { OptionsIcon3 } from "./OptionsIcon3";
-import { OptionsIcon4 } from "./OptionsIcon4";
 import { Polygon1Icon } from "./Polygon1Icon";
 import { Polygon1Icon2 } from "./Polygon1Icon2";
-import { Polygon1Icon3 } from "./Polygon1Icon3";
-import { Polygon1Icon4 } from "./Polygon1Icon4";
-import { Polygon1Icon5 } from "./Polygon1Icon5";
+import classes from "./Profile2.module.css";
 import { Rectangle37Icon } from "./Rectangle37Icon";
 import { Rectangle37Icon2 } from "./Rectangle37Icon2";
 import { Rectangle37Icon3 } from "./Rectangle37Icon3";
-import { Rectangle37Icon4 } from "./Rectangle37Icon4";
-import { Rectangle37Icon5 } from "./Rectangle37Icon5";
-import { Rectangle37Icon6 } from "./Rectangle37Icon6";
 import { Rectangle38Icon } from "./Rectangle38Icon";
 import { Rectangle38Icon2 } from "./Rectangle38Icon2";
 import { Rectangle38Icon3 } from "./Rectangle38Icon3";
-import { Rectangle38Icon4 } from "./Rectangle38Icon4";
-import { Rectangle38Icon5 } from "./Rectangle38Icon5";
-import { Rectangle38Icon6 } from "./Rectangle38Icon6";
-import { SearchIcon } from "./SearchIcon";
 import { Star1Icon } from "./Star1Icon";
-import { Star1Icon2 } from "./Star1Icon2";
 import { StorefrontIcon } from "./StorefrontIcon";
-import { UnsplashE9uj65vwgmeIcon } from "./UnsplashE9uj65vwgmeIcon";
-import { UnsplashK84vnnzxmtqIcon } from "./UnsplashK84vnnzxmtqIcon";
 import { UsercircleIcon } from "./UsercircleIcon";
 import { VectorIcon } from "./VectorIcon";
 import { VectorIcon2 } from "./VectorIcon2";
@@ -82,13 +51,23 @@ import { VectorIcon4 } from "./VectorIcon4";
 import { VectorIcon5 } from "./VectorIcon5";
 import { VectorIcon6 } from "./VectorIcon6";
 import { VectorIcon7 } from "./VectorIcon7";
-import { VectorIcon8 } from "./VectorIcon8";
-import { VectorIcon9 } from "./VectorIcon9";
-import { VectorIcon10 } from "./VectorIcon10";
 
 interface Props {
   className?: string;
   classes?: {
+    line11?: string;
+    ellipse17?: string;
+    ellipse72?: string;
+    rectangle187?: string;
+    posts570?: string;
+    followers18m?: string;
+    following23k?: string;
+    josephOladipo?: string;
+    posts560?: string;
+    outlet?: string;
+    line2?: string;
+    line13?: string;
+    line12?: string;
     frame8?: string;
     rectangle35?: string;
     drSalemLawal?: string;
@@ -98,7 +77,7 @@ interface Props {
     thisIsTheOpportunityToJoinTheW?: string;
     unsplashSq5P00L7lXc?: string;
     options?: string;
-    line2?: string;
+    line22?: string;
     vector?: string;
     group?: string;
     group2?: string;
@@ -109,7 +88,7 @@ interface Props {
     _13K?: string;
     ellipse21?: string;
     polygon1?: string;
-    ellipse17?: string;
+    ellipse172?: string;
     rectangle36?: string;
     comment?: string;
     yourCommentGoesHere?: string;
@@ -119,16 +98,13 @@ interface Props {
     post?: string;
     star1?: string;
     checkCircle?: string;
-    frame5?: string;
+    frame4?: string;
     rectangle352?: string;
-    ruthObe?: string;
-    lagosNigeria2?: string;
     _1hrAgo2?: string;
-    professionalTechConsultant?: string;
-    thisIsTheOpportunityToJoinTheW2?: string;
-    unsplashXKimW0pke6w?: string;
+    checkOutThisAmazingBeachPartyC?: string;
+    unsplashU6t80TWJ1DM?: string;
     options2?: string;
-    line22?: string;
+    line23?: string;
     vector2?: string;
     group4?: string;
     group5?: string;
@@ -137,9 +113,11 @@ interface Props {
     _1152?: string;
     _52?: string;
     _13K2?: string;
-    ellipse212?: string;
-    polygon12?: string;
-    ellipse172?: string;
+    group48?: string;
+    beccaTouches?: string;
+    abujuNigeria?: string;
+    travelsAndTourism?: string;
+    ellipse173?: string;
     rectangle362?: string;
     comment2?: string;
     yourCommentGoesHere2?: string;
@@ -147,16 +125,16 @@ interface Props {
     rectangle372?: string;
     rectangle382?: string;
     post2?: string;
-    frame3?: string;
+    frame5?: string;
     rectangle353?: string;
-    drSalemLawal2?: string;
-    lagosNigeria3?: string;
+    ruthObe?: string;
+    lagosNigeria2?: string;
     _1hrAgo3?: string;
-    pharmacist2?: string;
-    thisIsTheOpportunityToJoinTheW3?: string;
-    unsplashSq5P00L7lXc2?: string;
+    professionalTechConsultant?: string;
+    thisIsTheOpportunityToJoinTheW2?: string;
+    unsplashXKimW0pke6w?: string;
     options3?: string;
-    line23?: string;
+    line24?: string;
     vector3?: string;
     group7?: string;
     group8?: string;
@@ -165,9 +143,9 @@ interface Props {
     _1153?: string;
     _53?: string;
     _13K3?: string;
-    ellipse213?: string;
-    polygon13?: string;
-    ellipse173?: string;
+    ellipse212?: string;
+    polygon12?: string;
+    ellipse174?: string;
     rectangle363?: string;
     comment3?: string;
     yourCommentGoesHere3?: string;
@@ -175,137 +153,102 @@ interface Props {
     rectangle373?: string;
     rectangle383?: string;
     post3?: string;
-    star12?: string;
-    checkCircle2?: string;
-    frame6?: string;
-    rectangle354?: string;
-    chimamandaOkoye?: string;
-    lagosNigeria4?: string;
-    _1hrAgo4?: string;
-    educationSpecialist?: string;
-    thisIsTheOpportunityToJoinTheW4?: string;
-    unsplashHpRGrfOIybc?: string;
-    ellipse18?: string;
-    ellipse19?: string;
-    ellipse20?: string;
-    line24?: string;
-    vector4?: string;
-    group10?: string;
-    group11?: string;
-    group12?: string;
-    _32K4?: string;
-    _1154?: string;
-    _54?: string;
-    _13K4?: string;
-    ellipse214?: string;
-    polygon14?: string;
-    unsplashE9uJ65vwGmE?: string;
-    rectangle364?: string;
-    comment4?: string;
-    yourCommentGoesHere4?: string;
-    seeAllComments4?: string;
-    rectangle374?: string;
-    rectangle384?: string;
-    post4?: string;
-    frame4?: string;
-    rectangle355?: string;
-    _1hrAgo5?: string;
-    checkOutThisAmazingBeachPartyC?: string;
-    unsplashU6t80TWJ1DM?: string;
-    options4?: string;
-    line25?: string;
-    vector5?: string;
-    group13?: string;
-    group14?: string;
-    group15?: string;
-    _32K5?: string;
-    _1155?: string;
-    _55?: string;
-    _13K5?: string;
-    group48?: string;
-    beccaTouches?: string;
-    abujuNigeria?: string;
-    travelsAndTourism?: string;
-    ellipse174?: string;
-    rectangle365?: string;
-    comment5?: string;
-    yourCommentGoesHere5?: string;
-    seeAllComments5?: string;
-    rectangle375?: string;
-    rectangle385?: string;
-    post5?: string;
-    frame7?: string;
-    rectangle356?: string;
-    tayoAuto?: string;
-    lagosNigeria5?: string;
-    _1hrAgo6?: string;
+    lagosNigeria3?: string;
+    mapPin?: string;
     professionalTechConsultant2?: string;
-    thisIsTheOpportunityToJoinTheW5?: string;
-    unsplash2swaWy4Xhb0?: string;
-    ellipse182?: string;
-    ellipse192?: string;
-    ellipse202?: string;
-    line26?: string;
-    vector6?: string;
-    group16?: string;
-    group17?: string;
-    group18?: string;
-    _32K6?: string;
-    _1156?: string;
-    _56?: string;
-    _13K6?: string;
-    ellipse215?: string;
-    polygon15?: string;
-    unsplashK84vnnzxmTQ?: string;
-    rectangle366?: string;
-    comment6?: string;
-    yourCommentGoesHere6?: string;
-    seeAllComments6?: string;
-    rectangle376?: string;
-    rectangle386?: string;
-    post6?: string;
-    frame2?: string;
-    rectangle43?: string;
-    feeds?: string;
-    rectangle44?: string;
-    agro?: string;
-    rectangle442?: string;
-    agro2?: string;
-    rectangle443?: string;
-    foods?: string;
-    rectangle444?: string;
-    travels?: string;
-    rectangle445?: string;
-    luxury?: string;
-    rectangle34?: string;
-    _2GEDA11?: string;
+    briefcase?: string;
+    rectangle188?: string;
+    rectangle189?: string;
+    dotsThreeCircle?: string;
     rectangle45?: string;
     house?: string;
     home?: string;
     storefront?: string;
-    outlet?: string;
+    outlet2?: string;
     messages?: string;
+    vector4?: string;
+    vector5?: string;
+    vector6?: string;
     vector7?: string;
-    vector8?: string;
-    vector9?: string;
-    vector10?: string;
     notification?: string;
     bell?: string;
     profile?: string;
     userCircle?: string;
-    rectangle32?: string;
-    searchNamesProductsOrServices?: string;
-    search?: string;
-    easterSales_01v31?: string;
-    ellipse22?: string;
-    unnamed?: string;
+    profile2?: string;
   };
 }
-export const Home: FC<Props> = memo(function Home(props = {}) {
-  const navigate = useNavigate();
-
+export const Profile2: FC<Props> = memo(function Profile2(props = {}) {
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
+      <Line11Icon
+        className={`${classes.line11} ${props.classes?.line11 || ""}`}
+      />
+      <img
+        src={Logo}
+        alt="logo"
+        className={`${classes.ellipse17} ${props.classes?.ellipse17 || ""}`}
+      />
+      <Ellipse72Icon
+        className={`${classes.ellipse72} ${props.classes?.ellipse72 || ""}`}
+      />
+      <div
+        className={`${classes.rectangle187} ${
+          props.classes?.rectangle187 || ""
+        }`}
+      ></div>
+      <div className={`${classes.posts570} ${props.classes?.posts570 || ""}`}>
+        <span className={classes.labelWrapper}>
+          <span className={classes.label}>
+            Posts
+            <br />
+          </span>
+          <span className={classes.label2}>570</span>
+        </span>
+      </div>
+      <div
+        className={`${classes.followers18m} ${
+          props.classes?.followers18m || ""
+        }`}
+      >
+        <span className={classes.labelWrapper2}>
+          <span className={classes.label3}>
+            Followers
+            <br />
+          </span>
+          <span className={classes.label4}>18m</span>
+        </span>
+      </div>
+      <div
+        className={`${classes.following23k} ${
+          props.classes?.following23k || ""
+        }`}
+      >
+        <span className={classes.labelWrapper3}>
+          <span className={classes.label5}>
+            Following
+            <br />
+          </span>
+          <span className={classes.label6}>23k</span>
+        </span>
+      </div>
+      <div
+        className={`${classes.josephOladipo} ${
+          props.classes?.josephOladipo || ""
+        }`}
+      >
+        Joseph Oladipo
+      </div>
+      <div className={`${classes.posts560} ${props.classes?.posts560 || ""}`}>
+        Posts (560)
+      </div>
+      <div className={`${classes.outlet} ${props.classes?.outlet || ""}`}>
+        Outlet (0)
+      </div>
+      <Line2Icon className={`${classes.line2} ${props.classes?.line2 || ""}`} />
+      <Line13Icon
+        className={`${classes.line13} ${props.classes?.line13 || ""}`}
+      />
+      <div className={`${classes.line12} ${props.classes?.line12 || ""}`}></div>
       <div className={`${classes.frame8} ${props.classes?.frame8 || ""}`}>
         <div
           className={`${classes.rectangle35} ${
@@ -339,29 +282,27 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
             props.classes?.thisIsTheOpportunityToJoinTheW || ""
           }`}
         >
-          <span className={classes.labelWrapper}>
-            <span className={classes.label}>
+          <span className={classes.labelWrapper4}>
+            <span className={classes.label7}>
               This is the Opportunity to Join the World Leading Tech
               Professionals in 2022. All you need do is to register with the
               link below
               <br />
               <br />
             </span>
-            <span className={classes.label2}>www.ileifetech.com/freshmen</span>
+            <span className={classes.label8}>www.ileifetech.com/freshmen</span>
           </span>
         </div>
-        <img
-          src={Logo}
-          alt="logo"
+        <div
           className={`${classes.unsplashSq5P00L7lXc} ${
             props.classes?.unsplashSq5P00L7lXc || ""
           }`}
-        />
+        ></div>
         <OptionsIcon
           className={`${classes.options} ${props.classes?.options || ""}`}
         />
-        <Line2Icon
-          className={`${classes.line2} ${props.classes?.line2 || ""}`}
+        <Line2Icon2
+          className={`${classes.line22} ${props.classes?.line22 || ""}`}
         />
         <VectorIcon
           className={`${classes.vector} ${props.classes?.vector || ""}`}
@@ -391,10 +332,8 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
         <Polygon1Icon
           className={`${classes.polygon1} ${props.classes?.polygon1 || ""}`}
         />
-        <img
-          src={Logo}
-          alt="logo"
-          className={`${classes.ellipse17} ${props.classes?.ellipse17 || ""}`}
+        <Ellipse17Icon2
+          className={`${classes.ellipse172} ${props.classes?.ellipse172 || ""}`}
         />
         <div
           className={`${classes.rectangle36} ${
@@ -418,8 +357,7 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
         >
           See all comments
         </div>
-        <input
-          type="text"
+        <Rectangle37Icon
           className={`${classes.rectangle37} ${
             props.classes?.rectangle37 || ""
           }`}
@@ -442,22 +380,40 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
         />
       </div>
       <div
-        className={`${classes.rectangle34} ${props.classes?.rectangle34 || ""}`}
+        className={`${classes.lagosNigeria3} ${
+          props.classes?.lagosNigeria3 || ""
+        }`}
       >
-        <img
-          src={Logo}
-          alt="logo"
-          className={`${classes._2GEDA11} ${props.classes?._2GEDA11 || ""}`}
-        />
-        <div
-          className={`${classes.rectangle32} ${
-            props.classes?.rectangle32 || ""
-          }`}
-        ></div>
-        <SearchIcon
-          className={`${classes.search} ${props.classes?.search || ""}`}
-        />
+        Lagos, Nigeria
       </div>
+      <MappinIcon
+        className={`${classes.mapPin} ${props.classes?.mapPin || ""}`}
+      />
+      <div
+        className={`${classes.professionalTechConsultant2} ${
+          props.classes?.professionalTechConsultant2 || ""
+        }`}
+      >
+        Professional Tech Consultant
+      </div>
+      <BriefcaseIcon
+        className={`${classes.briefcase} ${props.classes?.briefcase || ""}`}
+      />
+      <div
+        className={`${classes.rectangle188} ${
+          props.classes?.rectangle188 || ""
+        }`}
+      ></div>
+      <div
+        className={`${classes.rectangle189} ${
+          props.classes?.rectangle189 || ""
+        }`}
+      ></div>
+      <DotsthreecircleIcon
+        className={`${classes.dotsThreeCircle} ${
+          props.classes?.dotsThreeCircle || ""
+        }`}
+      />
       <div
         className={`${classes.rectangle45} ${props.classes?.rectangle45 || ""}`}
       ></div>
@@ -466,23 +422,23 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
       <StorefrontIcon
         className={`${classes.storefront} ${props.classes?.storefront || ""}`}
       />
-      <div className={`${classes.outlet} ${props.classes?.outlet || ""}`}>
+      <div className={`${classes.outlet2} ${props.classes?.outlet2 || ""}`}>
         Outlet
       </div>
       <div className={`${classes.messages} ${props.classes?.messages || ""}`}>
         Messages
       </div>
+      <VectorIcon4
+        className={`${classes.vector4} ${props.classes?.vector4 || ""}`}
+      />
+      <VectorIcon5
+        className={`${classes.vector5} ${props.classes?.vector5 || ""}`}
+      />
+      <VectorIcon6
+        className={`${classes.vector6} ${props.classes?.vector6 || ""}`}
+      />
       <VectorIcon7
         className={`${classes.vector7} ${props.classes?.vector7 || ""}`}
-      />
-      <VectorIcon8
-        className={`${classes.vector8} ${props.classes?.vector8 || ""}`}
-      />
-      <VectorIcon9
-        className={`${classes.vector9} ${props.classes?.vector9 || ""}`}
-      />
-      <VectorIcon10
-        className={`${classes.vector10} ${props.classes?.vector10 || ""}`}
       />
       <div
         className={`${classes.notification} ${
@@ -492,41 +448,14 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
         Notification
       </div>
       <BellIcon className={`${classes.bell} ${props.classes?.bell || ""}`} />
-      <div
-        onClick={() => {
-          navigate("/profile");
-        }}
-        className={`${classes.profile} ${props.classes?.profile || ""}`}
-      >
+      <div className={`${classes.profile} ${props.classes?.profile || ""}`}>
         Profile
       </div>
       <UsercircleIcon
-        onClick={() => {
-          navigate("/profile");
-        }}
         className={`${classes.userCircle} ${props.classes?.userCircle || ""}`}
       />
-      <SearchIcon
-        className={`${classes.search} ${props.classes?.search || ""}`}
-      />
-      <div
-        className={`${classes.easterSales_01v31} ${
-          props.classes?.easterSales_01v31 || ""
-        }`}
-      ></div>
-      <Ellipse22Icon
-        onClick={() => {
-          navigate("/upload");
-        }}
-        className={`${classes.ellipse22} ${props.classes?.ellipse22 || ""}`}
-      />
-      <div
-        onClick={() => {
-          navigate("/upload");
-        }}
-        className={`${classes.unnamed} ${props.classes?.unnamed || ""}`}
-      >
-        +
+      <div className={`${classes.profile2} ${props.classes?.profile2 || ""}`}>
+        Profile
       </div>
     </div>
   );
