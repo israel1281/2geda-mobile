@@ -11,6 +11,7 @@ import { Home } from "./components/Home/Home";
 import { Upload } from "./components/Upload/Upload";
 import { Profile2 } from "./components/Profile2/Profile2";
 import { Outlet } from "./components/Outlet/Outlet";
+import { People } from "./components/People/People";
 
 interface Props {
   className?: string;
@@ -30,6 +31,7 @@ export const App: FC<Props> = memo(function App(props = {}) {
           <Route path="/upload" element={<Upload />} />
           <Route path="/profile" element={<Profile2 />} />
           <Route path="/outlet" element={<Outlet />} />
+          <Route path="/people" element={<People />} />
         </Routes>
       </BrowserRouter>
     </div>
