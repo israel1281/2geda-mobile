@@ -1,5 +1,6 @@
 .root {
-  height: 3651px;
+  width: 100%;
+  height: 100%;
   flex: 1;
   align-self: stretch;
   align-items: flex-start;
@@ -8,15 +9,17 @@
   overflow: hidden;
 }
 .frame8 {
-  width: 360px;
-  height: 523px;
+  width: 100%;
+  height: 100%;
   align-items: flex-start;
   position: absolute;
-  left: 8px;
-  top: 317px;
+  left: 0px;
+  top: 109px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .rectangle35 {
-  width: 360px;
+  width: 100%;
   height: 426px;
   position: absolute;
   left: 0;
@@ -28,67 +31,71 @@
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 180px;
   height: 19px;
   position: absolute;
-  left: 88px;
+  left: 22%;
   top: 34px;
 }
 .lagosNigeria {
   color: #000;
   font-size: 8px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 110px;
   height: 10px;
   position: absolute;
-  left: 89px;
+  left: 23%;
   top: 64px;
 }
 ._1hrAgo {
   color: #000;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 37px;
   height: 12px;
   position: absolute;
-  left: 293px;
+  left: 85%;
   top: 22px;
 }
 .pharmacist {
   color: #000;
   font-size: 8px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 115px;
   height: 10px;
   position: absolute;
-  left: 88px;
+  left: 23%;
   top: 52px;
 }
 .label {
+  width: 90%;
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  right: 10%;
 }
 .label2 {
   color: #4f0da3;
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  right: 10%;
 }
 .labelWrapper {
+  width: 80%;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   flex-shrink: 1;
 }
 .thisIsTheOpportunityToJoinTheW {
@@ -99,22 +106,17 @@
   top: 96px;
 }
 .unsplashSq5P00L7lXc {
-  width: 313px;
+  width: 90%;
   height: 187px;
   position: absolute;
-  left: 24px;
+  left: 5%;
   top: 167px;
-  background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/unsplashSq5P00L7lXc.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .options {
   width: 32px;
   height: 10px;
   position: absolute;
-  left: 301px;
+  left: 85%;
   top: 372px;
   overflow: visible;
 }
@@ -129,79 +131,82 @@
   overflow: visible;
 }
 .vector {
+  width: 20px;
   position: absolute;
-  left: 22.2222%;
+  left: 20%;
   right: 71.6666%;
-  top: 71.1281%;
-  bottom: 24.4741%;
+  top: 370px;
   overflow: visible;
 }
 .group {
+  width: 20px;
   position: absolute;
   left: 52.6946%;
   right: 39.8204%;
-  top: 70.7119%;
+  top: 370px;
   bottom: 24.1358%;
   overflow: visible;
 }
 .group2 {
+  width: 20px;
   position: absolute;
   left: 6.0925%;
   right: 86.6313%;
-  top: 70.7119%;
+  top: 370px;
   bottom: 24.1358%;
   overflow: visible;
 }
 .group3 {
+  width: 20px;
   position: absolute;
   left: 37.1257%;
   right: 55.3891%;
-  top: 70.8008%;
+  top: 370px;
   bottom: 24.2247%;
   overflow: visible;
 }
 ._32K {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
-  left: 24px;
+  left: 6%;
   top: 405px;
 }
 ._115 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 18px;
   height: 12px;
   position: absolute;
-  left: 82px;
+  left: 20%;
   top: 405px;
 }
 ._5 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 7px;
   height: 12px;
   position: absolute;
-  left: 143px;
+  left: 40%;
   top: 405px;
 }
 ._13K {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
-  left: 191px;
+  left: 54%;
   top: 405px;
 }
 .ellipse21 {
@@ -211,25 +216,27 @@
   left: 164px;
   top: 244px;
   overflow: visible;
+  display: none;
 }
 .polygon1 {
-  width: 26.4783px;
+  width: 10%;
   height: 26.4783px;
   position: absolute;
   left: 167.0659px;
   top: 247.1611px;
   overflow: visible;
+  display: none;
 }
 .ellipse17 {
-  width: 50px;
+  width: 20%;
   height: 50px;
   position: absolute;
-  left: 30px;
+  left: 2%;
   top: 31px;
   overflow: visible;
 }
 .rectangle36 {
-  width: 360px;
+  width: 100%;
   height: 94px;
   position: absolute;
   left: 0;
@@ -240,8 +247,8 @@
 .comment {
   color: #000c;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 49px;
   height: 12px;
   position: absolute;
@@ -253,8 +260,8 @@
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 114px;
   height: 12px;
   position: absolute;
@@ -265,8 +272,8 @@
   color: #000c;
   font-size: 10px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 87px;
   height: 12px;
   position: absolute;
@@ -274,47 +281,49 @@
   top: 503px;
 }
 .rectangle37 {
-  width: 326px;
+  width: 80%;
   height: 38px;
   position: absolute;
   left: 11px;
   top: 455px;
   overflow: visible;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 .rectangle38 {
-  width: 76px;
-  height: 38px;
+  width: 35%;
+  height: 40px;
   position: absolute;
-  left: 261px;
-  top: 455px;
+  left: 60%;
+  top: 454px;
   overflow: visible;
 }
 .post {
   color: #fff;
   font-size: 12px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 27px;
   height: 15px;
   position: absolute;
-  left: 286px;
+  left: 235px;
   top: 467px;
 }
 .star1 {
   width: 14px;
   height: 14px;
   position: absolute;
-  left: 62px;
-  top: 67px;
+  left: 15%;
+  top: 28px;
   overflow: visible;
 }
 .checkCircle {
   width: 8px;
   height: 8px;
   position: absolute;
-  left: 65px;
-  top: 70px;
+  left: 16%;
+  top: 30px;
 }
 .frame5 {
   width: 360px;
@@ -337,8 +346,8 @@
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 180px;
   height: 19px;
   position: absolute;
@@ -349,8 +358,8 @@
   color: #000;
   font-size: 8px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 110px;
   height: 10px;
   position: absolute;
@@ -361,8 +370,8 @@
   color: #000;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 37px;
   height: 12px;
   position: absolute;
@@ -372,8 +381,8 @@
 .professionalTechConsultant {
   color: #000;
   font-size: 8px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 115px;
   height: 10px;
   position: absolute;
@@ -383,21 +392,21 @@
 .label3 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .label4 {
   color: #4f0da3;
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .labelWrapper2 {
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   flex-shrink: 1;
 }
 .thisIsTheOpportunityToJoinTheW2 {
@@ -414,7 +423,7 @@
   left: 24px;
   top: 167px;
   background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/unsplashXKimW0pke6w.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/unsplashXKimW0pke6w.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -472,8 +481,8 @@
 ._32K2 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -483,8 +492,8 @@
 ._1152 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 18px;
   height: 12px;
   position: absolute;
@@ -494,8 +503,8 @@
 ._52 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 7px;
   height: 12px;
   position: absolute;
@@ -505,8 +514,8 @@
 ._13K2 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -549,8 +558,8 @@
 .comment2 {
   color: #000c;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 49px;
   height: 12px;
   position: absolute;
@@ -562,8 +571,8 @@
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 114px;
   height: 12px;
   position: absolute;
@@ -574,8 +583,8 @@
   color: #000c;
   font-size: 10px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 87px;
   height: 12px;
   position: absolute;
@@ -602,8 +611,8 @@
   color: #fff;
   font-size: 12px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 27px;
   height: 15px;
   position: absolute;
@@ -631,8 +640,8 @@
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 180px;
   height: 19px;
   position: absolute;
@@ -643,8 +652,8 @@
   color: #000;
   font-size: 8px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 110px;
   height: 10px;
   position: absolute;
@@ -655,8 +664,8 @@
   color: #000;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 37px;
   height: 12px;
   position: absolute;
@@ -666,8 +675,8 @@
 .pharmacist2 {
   color: #000;
   font-size: 8px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 115px;
   height: 10px;
   position: absolute;
@@ -677,21 +686,21 @@
 .label5 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .label6 {
   color: #4f0da3;
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .labelWrapper3 {
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   flex-shrink: 1;
 }
 .thisIsTheOpportunityToJoinTheW3 {
@@ -708,7 +717,7 @@
   left: 24px;
   top: 167px;
   background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/unsplashSq5P00L7lXc2.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/unsplashSq5P00L7lXc2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -766,8 +775,8 @@
 ._32K3 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -777,8 +786,8 @@
 ._1153 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 18px;
   height: 12px;
   position: absolute;
@@ -788,8 +797,8 @@
 ._53 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 7px;
   height: 12px;
   position: absolute;
@@ -799,8 +808,8 @@
 ._13K3 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -843,8 +852,8 @@
 .comment3 {
   color: #000c;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 49px;
   height: 12px;
   position: absolute;
@@ -856,8 +865,8 @@
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 114px;
   height: 12px;
   position: absolute;
@@ -868,8 +877,8 @@
   color: #000c;
   font-size: 10px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 87px;
   height: 12px;
   position: absolute;
@@ -896,8 +905,8 @@
   color: #fff;
   font-size: 12px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 27px;
   height: 15px;
   position: absolute;
@@ -940,8 +949,8 @@
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 180px;
   height: 19px;
   position: absolute;
@@ -952,8 +961,8 @@
   color: #000;
   font-size: 8px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 110px;
   height: 10px;
   position: absolute;
@@ -964,8 +973,8 @@
   color: #000;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 37px;
   height: 12px;
   position: absolute;
@@ -975,8 +984,8 @@
 .educationSpecialist {
   color: #000;
   font-size: 8px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 115px;
   height: 10px;
   position: absolute;
@@ -986,21 +995,21 @@
 .label7 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .label8 {
   color: #4f0da3;
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .labelWrapper4 {
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   flex-shrink: 1;
 }
 .thisIsTheOpportunityToJoinTheW4 {
@@ -1017,7 +1026,7 @@
   left: 24px;
   top: 167px;
   background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/unsplashHpRGrfOIybc.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/unsplashHpRGrfOIybc.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1091,8 +1100,8 @@
 ._32K4 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -1102,8 +1111,8 @@
 ._1154 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 18px;
   height: 12px;
   position: absolute;
@@ -1113,8 +1122,8 @@
 ._54 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 7px;
   height: 12px;
   position: absolute;
@@ -1124,8 +1133,8 @@
 ._13K4 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -1168,8 +1177,8 @@
 .comment4 {
   color: #000c;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 49px;
   height: 12px;
   position: absolute;
@@ -1181,8 +1190,8 @@
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 114px;
   height: 12px;
   position: absolute;
@@ -1193,8 +1202,8 @@
   color: #000c;
   font-size: 10px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 87px;
   height: 12px;
   position: absolute;
@@ -1221,8 +1230,8 @@
   color: #fff;
   font-size: 12px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 27px;
   height: 15px;
   position: absolute;
@@ -1250,8 +1259,8 @@
   color: #000;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 37px;
   height: 12px;
   position: absolute;
@@ -1261,20 +1270,20 @@
 .label9 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .label10 {
   color: #4f0da3;
   font-size: 10px;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .labelWrapper5 {
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   flex-shrink: 1;
 }
 .checkOutThisAmazingBeachPartyC {
@@ -1291,7 +1300,7 @@
   left: 24px;
   top: 167px;
   background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/unsplashU6t80TWJ1DM.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/unsplashU6t80TWJ1DM.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1349,8 +1358,8 @@
 ._32K5 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -1360,8 +1369,8 @@
 ._1155 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 18px;
   height: 12px;
   position: absolute;
@@ -1371,8 +1380,8 @@
 ._55 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 7px;
   height: 12px;
   position: absolute;
@@ -1382,8 +1391,8 @@
 ._13K5 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -1402,8 +1411,8 @@
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 180px;
   height: 19px;
   position: absolute;
@@ -1414,8 +1423,8 @@
   color: #000;
   font-size: 8px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 110px;
   height: 10px;
   position: absolute;
@@ -1425,8 +1434,8 @@
 .travelsAndTourism {
   color: #000;
   font-size: 8px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 115px;
   height: 10px;
   position: absolute;
@@ -1453,8 +1462,8 @@
 .comment5 {
   color: #000c;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 49px;
   height: 12px;
   position: absolute;
@@ -1466,8 +1475,8 @@
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 114px;
   height: 12px;
   position: absolute;
@@ -1478,8 +1487,8 @@
   color: #000c;
   font-size: 10px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 87px;
   height: 12px;
   position: absolute;
@@ -1506,8 +1515,8 @@
   color: #fff;
   font-size: 12px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 27px;
   height: 15px;
   position: absolute;
@@ -1535,8 +1544,8 @@
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 180px;
   height: 19px;
   position: absolute;
@@ -1547,8 +1556,8 @@
   color: #000;
   font-size: 8px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 110px;
   height: 10px;
   position: absolute;
@@ -1559,8 +1568,8 @@
   color: #000;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 37px;
   height: 12px;
   position: absolute;
@@ -1570,8 +1579,8 @@
 .professionalTechConsultant2 {
   color: #000;
   font-size: 8px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 115px;
   height: 10px;
   position: absolute;
@@ -1581,21 +1590,21 @@
 .label11 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .label12 {
   color: #4f0da3;
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .labelWrapper6 {
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   flex-shrink: 1;
 }
 .thisIsTheOpportunityToJoinTheW5 {
@@ -1612,7 +1621,7 @@
   left: 24px;
   top: 167px;
   background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/unsplash2swaWy4Xhb0.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/unsplash2swaWy4Xhb0.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1686,8 +1695,8 @@
 ._32K6 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -1697,8 +1706,8 @@
 ._1156 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 18px;
   height: 12px;
   position: absolute;
@@ -1708,8 +1717,8 @@
 ._56 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 7px;
   height: 12px;
   position: absolute;
@@ -1719,8 +1728,8 @@
 ._13K6 {
   color: #000;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 22px;
   height: 12px;
   position: absolute;
@@ -1763,8 +1772,8 @@
 .comment6 {
   color: #000c;
   font-size: 10px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 49px;
   height: 12px;
   position: absolute;
@@ -1776,8 +1785,8 @@
   font-size: 10px;
   font-weight: 300;
   font-style: italic;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 114px;
   height: 12px;
   position: absolute;
@@ -1788,8 +1797,8 @@
   color: #000c;
   font-size: 10px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 87px;
   height: 12px;
   position: absolute;
@@ -1816,8 +1825,8 @@
   color: #fff;
   font-size: 12px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 27px;
   height: 15px;
   position: absolute;
@@ -1846,8 +1855,8 @@
 .feeds {
   color: #fff;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 25px;
   top: 8px;
@@ -1866,8 +1875,8 @@
 .agro {
   color: #0c0c0c66;
   font-size: 15px;
-  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Arial, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 125px;
   top: 7px;
@@ -1886,8 +1895,8 @@
 .agro2 {
   color: #0c0c0c66;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 224px;
   top: 7px;
@@ -1906,8 +1915,8 @@
 .foods {
   color: #0c0c0c66;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 322px;
   top: 7px;
@@ -1926,8 +1935,8 @@
 .travels {
   color: #0c0c0c66;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 418px;
   top: 7px;
@@ -1946,16 +1955,16 @@
 .luxury {
   color: #0c0c0c66;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 517px;
   top: 7px;
   white-space: nowrap;
 }
 .rectangle34 {
-  width: 375px;
-  height: 252px;
+  width: 100%;
+  height: 15%;
   position: absolute;
   left: 0;
   top: 0;
@@ -1963,22 +1972,22 @@
   filter: drop-shadow(0px 4px 4px #0000001a);
 }
 ._2GEDA11 {
-  width: 49px;
+  width: 30%;
   height: 50px;
   position: absolute;
-  left: 19px;
-  top: 71px;
-  background-image:/* webpackIgnore: true */ url('assets/_2GEDA11.png');
+  left: -2%;
+  top: 30px;
+  background-image:/* webpackIgnore: true */ url("assets/_2GEDA11.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .rectangle45 {
-  width: 376px;
+  width: 100%;
   height: 98px;
   position: absolute;
   left: 0;
-  top: 714px;
+  top: 90%;
   background-color: #fff;
   box-shadow: 10px 0px 12px 1px #0000000d;
 }
@@ -1986,35 +1995,37 @@
   position: absolute;
   left: 6.9333%;
   right: 84.5333%;
-  top: 19.967%;
+  top: 90%;
   bottom: 79.1563%;
   overflow: visible;
+  width: 10%;
 }
 .home {
   color: #4f0da3;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 28px;
-  top: 759px;
+  top: 95%;
   white-space: nowrap;
 }
 .storefront {
   position: absolute;
   left: 26.1332%;
   right: 65.3332%;
-  top: 19.967%;
+  top: 90%;
   bottom: 79.1563%;
   overflow: visible;
+  width: 10%;
 }
 .outlet {
   color: #28282880;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 99px;
   top: 761px;
@@ -2024,8 +2035,8 @@
   color: #28282880;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 230px;
   top: 761px;
@@ -2038,6 +2049,8 @@
   top: 20.0773%;
   bottom: 79.2659%;
   overflow: visible;
+  top: 90%;
+  width: 8%;
 }
 .vector8 {
   position: absolute;
@@ -2067,8 +2080,8 @@
   color: #28282880;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 302px;
   top: 761px;
@@ -2078,16 +2091,17 @@
   position: absolute;
   left: 83.2%;
   right: 8.2666%;
-  top: 19.967%;
+  top: 90%;
   bottom: 79.1563%;
   overflow: visible;
+  width: 10%;
 }
 .profile {
   color: #28282880;
   font-size: 10px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 171px;
   top: 761px;
@@ -2100,13 +2114,15 @@
   top: 19.967%;
   bottom: 79.1563%;
   overflow: visible;
+  width: 10%;
+  top: 90%;
 }
 .rectangle32 {
-  width: 266px;
+  width: 70%;
   height: 39px;
   position: absolute;
-  left: 82px;
-  top: 76px;
+  left: 25%;
+  top: 35px;
   outline: solid 1px #28282866;
   outline-offset: -1px;
   border-radius: 5px;
@@ -2115,8 +2131,8 @@
   color: #0006;
   font-size: 12px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 101px;
   top: 90px;
@@ -2126,8 +2142,8 @@
   width: 15px;
   height: 15px;
   position: absolute;
-  left: 323px;
-  top: 90px;
+  left: 85%;
+  top: 50px;
 }
 .easterSales_01v31 {
   width: 328px;
@@ -2135,12 +2151,12 @@
   position: absolute;
   left: 24px;
   top: 147px;
-  background-image:/* webpackIgnore: true */ url('assets/easterSales_01v31.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/easterSales_01v31.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-mask-image:/* webpackIgnore: true */ url('assets/aD.svg');
-  mask-image:/* webpackIgnore: true */ url('assets/aD.svg');
+  -webkit-mask-image:/* webpackIgnore: true */ url("assets/aD.svg");
+  mask-image:/* webpackIgnore: true */ url("assets/aD.svg");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: -5px 0px;
@@ -2149,21 +2165,21 @@
   mask-size: 338px 79px;
 }
 .ellipse22 {
-  width: 62px;
+  width: 15%;
   height: 62px;
   position: absolute;
-  left: 289px;
-  top: 648px;
+  left: 80%;
+  top: 510px;
   overflow: visible;
 }
 .unnamed {
   color: #fff;
   font-size: 35px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 310px;
-  top: 657px;
+  left: 84%;
+  top: 510px;
   white-space: nowrap;
 }
