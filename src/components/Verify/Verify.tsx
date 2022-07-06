@@ -127,10 +127,9 @@ export const Verify: FC<Props> = memo(function Verify(props = {}) {
       <button
         onClick={handleSubmit}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      ></button>
-      <div className={`${classes.verify} ${props.classes?.verify || ""}`}>
+      >
         Verify
-      </div>
+      </button>
       <Ellipse14Icon
         className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
       />

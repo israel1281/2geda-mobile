@@ -12,31 +12,37 @@
   width: 25%;
   height: 50px;
   position: relative;
-  left: 70%;
+  left: 75%;
   top: 12%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
 }
 .pleaseVerifyYourEmail {
   color: #000c;
-  border: 1px solid black;
   font-size: 20px;
   font-weight: 500;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: relative;
-  left: -17%;
+  position: absolute;
+  left: 7%;
   top: 160px;
   white-space: nowrap;
 }
 .rectangle3 {
   width: 90%;
   height: 58px;
-  position: relative;
-  left: -92%;
+  position: absolute;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  left: 5%;
   top: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
   /*background-color: #4f0da380;*/
   background-color: #4f0da3;
@@ -52,29 +58,20 @@
   top: 717px;
   white-space: nowrap;
 }
-.ellipse14 {
-  position: relative;
-  left: 6.9333%;
-  right: 80.5333%;
-  top: 9.7289%;
-  bottom: 84.1133%;
-  overflow: visible;
-}
 .arrowLeft {
   width: 10%;
   height: 20px;
-  position: relative;
-  right: 286%;
+  position: absolute;
+  right: 85%;
   top: 14%;
   overflow: visible;
-  border: 1px solid black;
 }
 .group15 {
   width: 90%;
   height: 53px;
-  position: relative;
-  border: 1px solid black;
-  right: 300%;
+  position: absolute;
+  display: flex;
+  left: 5%;
   top: 199px;
   outline: solid 1px #28282880;
   outline-offset: -1px;
@@ -91,22 +88,21 @@
   font-size: 12px;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: relative;
-  left: 32px;
-  top: 50%;
+  position: absolute;
+  left: 15%;
+  top: 40%;
   white-space: nowrap;
 }
 ._042 {
   color: #000c;
   width: 5%;
-  border: 1px solid black;
   font-size: 15px;
   font-weight: 500;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: relative;
-  left: -400%;
-  top: 319px;
+  position: absolute;
+  left: 60%;
+  top: 315px;
   white-space: nowrap;
 }
 .didnTGetCodeResendCode {
@@ -114,8 +110,8 @@
   font-size: 12px;
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: relative;
-  left: 107px;
+  position: absolute;
+  left: 20%;
   top: 344px;
   white-space: nowrap;
 }
