@@ -2007,7 +2007,7 @@
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 28px;
+  left: 26px;
   top: 95%;
   white-space: nowrap;
 }
@@ -2027,8 +2027,8 @@
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 99px;
-  top: 761px;
+  left: 27%;
+  top: 95%;
   white-space: nowrap;
 }
 .messages {
@@ -2038,8 +2038,8 @@
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 230px;
-  top: 761px;
+  left: 62%;
+  top: 95%;
   white-space: nowrap;
 }
 .vector7 {
@@ -2083,11 +2083,12 @@
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 302px;
-  top: 761px;
+  left: 80%;
+  top: 95%;
   white-space: nowrap;
 }
 .bell {
+  width: 20px;
   position: absolute;
   left: 83.2%;
   right: 8.2666%;
@@ -2103,8 +2104,8 @@
   font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 171px;
-  top: 761px;
+  left: 47%;
+  top: 95%;
   white-space: nowrap;
 }
 .userCircle {
