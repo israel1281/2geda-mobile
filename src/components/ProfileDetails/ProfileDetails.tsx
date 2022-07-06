@@ -4,10 +4,10 @@ import { ArrowLeftIcon } from "./ArrowLeftIcon";
 import { Ellipse14Icon } from "./Ellipse14Icon";
 import { Group16Icon } from "./Group16Icon";
 import classes from "./ProfileDetails.module.css";
-import { Remove_red_eyeIcon } from "./Remove_red_eyeIcon";
 import { useNavigate } from "react-router-dom";
 import { successAlert, errorAlert } from "../../utils/Alert";
-import { patchAPI } from "../../utils/fetchDataApi"
+import Logo from "../../Assets/_2GEDA11.png";
+import { patchAPI } from "../../utils/fetchDataApi";
 
 interface Props {
   className?: string;
@@ -61,27 +61,29 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
   const [loading, setLoading] = React.useState<boolean>(false);
   const { email, password, first_name, surname, username } = userData;
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleSubmit = () => {
-    setLoading(true)
-    patchAPI('registerProfile', userData)
-    .then((res) => {
-        setLoading(false)
-        successAlert(res.data.message)
-        navigate('/')
-    })
-    .catch((err) => {
-        setLoading(false)
-        errorAlert(err.response.data.msg)
-    })
-  }
+    setLoading(true);
+    patchAPI("registerProfile", userData)
+      .then((res) => {
+        setLoading(false);
+        successAlert(res.data.message);
+        navigate("/");
+      })
+      .catch((err) => {
+        setLoading(false);
+        errorAlert(err.response.data.msg);
+      });
+  };
 
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
-      <div
+      <img
+        src={Logo}
+        alt="logo"
         className={`${classes._2GEDA11} ${props.classes?._2GEDA11 || ""}`}
-      ></div>
+      />
       <div
         className={`${classes.profileDetails} ${
           props.classes?.profileDetails || ""
@@ -90,31 +92,18 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
         Profile details
       </div>
       <button
-      onClick={handleSubmit}
+        onClick={handleSubmit}
         className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      ></button>
-      <div
-        className={`${classes.createAccount} ${
-          props.classes?.createAccount || ""
-        }`}
       >
         Create account
-      </div>
-      <div className={`${classes.lastName} ${props.classes?.lastName || ""}`}>
-        Last name
-      </div>
+      </button>
       <input
         type="text"
         value={userData.surname || ""}
-        onChange={(e) =>
-          setUserData({ ...userData, surname: e.target.value })
-        }
+        onChange={(e) => setUserData({ ...userData, surname: e.target.value })}
         placeholder="Last name"
         className={`${classes.rectangle5} ${props.classes?.rectangle5 || ""}`}
       />
-      <div className={`${classes.firstName} ${props.classes?.firstName || ""}`}>
-        First name
-      </div>
       <input
         type="text"
         value={userData.first_name || ""}
@@ -131,17 +120,10 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
         placeholder="email"
         className={`${classes.rectangle53} ${props.classes?.rectangle53 || ""}`}
       />
-      <div
-        className={`${classes.currentCity} ${props.classes?.currentCity || ""}`}
-      >
-        Current city
-      </div>
       <input
         type="text"
         value={userData.password || ""}
-        onChange={(e) =>
-          setUserData({ ...userData, password: e.target.value })
-        }
+        onChange={(e) => setUserData({ ...userData, password: e.target.value })}
         placeholder="Create password"
         className={`${classes.rectangle54} ${props.classes?.rectangle54 || ""}`}
       />
@@ -165,22 +147,12 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
       >
         Password must contain Capital and small letters, number or symbols.
       </div>
-      <div
-        className={`${classes.dateOfBirth} ${props.classes?.dateOfBirth || ""}`}
-      >
-        Date of Birth
-      </div>
       <input
         type="text"
         value={userData.username || ""}
         placeholder="Username"
-        onChange={(e) =>
-          setUserData({ ...userData, username: e.target.value })
-        }
+        onChange={(e) => setUserData({ ...userData, username: e.target.value })}
         className={`${classes.rectangle56} ${props.classes?.rectangle56 || ""}`}
-      />
-      <Group16Icon
-        className={`${classes.group16} ${props.classes?.group16 || ""}`}
       />
       <input
         type="radio"
