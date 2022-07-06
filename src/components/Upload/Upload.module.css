@@ -1,5 +1,5 @@
 .root {
-  height: 649px;
+  height: 100%;
   flex: 1;
   align-self: stretch;
   align-items: flex-start;
@@ -9,21 +9,22 @@
   overflow: hidden;
 }
 .rectangle56 {
-  width: 375px;
+  width: 100%;
   height: 108px;
   position: absolute;
   left: 0;
   top: -10px;
   overflow: visible;
+  background-color: #4f0da3;
 }
 .howAreYouDoingToday {
   color: #fff;
   font-size: 15px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 96px;
+  left: 25%;
   top: 57px;
   white-space: nowrap;
 }
@@ -31,59 +32,82 @@
   color: #bebcbc;
   font-size: 15px;
   font-weight: 300;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 33px;
   top: 135px;
   white-space: nowrap;
+  display: none;
 }
 .rectangle50 {
-  width: 334px;
+  width: 90%;
   height: 148px;
   position: absolute;
-  left: 21px;
+  left: 5%;
   top: 116px;
   border-radius: 10px;
   background-color: #c4c4c436;
+  color: #bebcbc;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  padding: 20px;
 }
 .rectangle51 {
-  width: 330px;
+  width: 90%;
   height: 53px;
   position: absolute;
-  left: 23px;
+  left: 5%;
   top: 277px;
   border-radius: 5px;
   background-color: #a59cacbd;
+  color: #fff;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .addImagesOrVideos {
   color: #fff;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 153.5848px;
   position: absolute;
   left: 101.868px;
   top: 295px;
+  display: none;
 }
 .rectangle512 {
-  width: 318px;
+  width: 90%;
   height: 53px;
   position: absolute;
-  left: 28px;
+  left: 5%;
   top: 572px;
   border-radius: 5px;
   background-color: #4f0da3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 .upload {
   color: #fff;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 163px;
   top: 590px;
   white-space: nowrap;
+  display: none;
 }
 .rectangle52 {
   width: 66px;
@@ -93,8 +117,9 @@
   top: 354px;
   border-radius: 5px;
   background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/rectangle523.jpeg'),
-    /* webpackIgnore: true */ url('assets/rectangle522.jpeg'), /* webpackIgnore: true */ url('assets/rectangle52.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/rectangle523.jpeg"),
+    /* webpackIgnore: true */ url("assets/rectangle522.jpeg"),
+    /* webpackIgnore: true */ url("assets/rectangle52.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover, cover, cover;
@@ -107,7 +132,7 @@
   top: 354px;
   border-radius: 5px;
   background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/unsplash8yPA6ZYq0S.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/unsplash8yPA6ZYq0S.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +145,7 @@
   top: 354px;
   border-radius: 5px;
   background-color: #c4c4c4;
-  background-image:/* webpackIgnore: true */ url('assets/rectangle54.jpeg');
+  background-image:/* webpackIgnore: true */ url("assets/rectangle54.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,32 +162,35 @@
 .tagFriends {
   color: #000000b2;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 26px;
   top: 444px;
   white-space: nowrap;
+  display: none;
 }
 .addLocation {
   color: #000000b2;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 26px;
   top: 488px;
   white-space: nowrap;
+  display: none;
 }
 .schedulePost {
   color: #000000b2;
   font-size: 15px;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 26px;
   top: 534px;
   white-space: nowrap;
+  display: none;
 }
 .line5 {
   width: 121px;
@@ -174,6 +202,7 @@
   top: 475px;
   border-bottom: solid 1px #0000001a;
   margin-bottom: -1px;
+  display: none;
 }
 .line6 {
   width: 121px;
@@ -185,8 +214,10 @@
   top: 517px;
   border-bottom: solid 1px #0000001a;
   margin-bottom: -1px;
+  display: none;
 }
 .x {
+  width: 30px;
   position: absolute;
   left: 84.2666%;
   right: 7.2%;
@@ -206,10 +237,10 @@
   color: #fff;
   font-size: 25px;
   font-weight: 500;
-  font-family: Ubuntu, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
-  left: 86px;
+  left: 20%;
   top: 26px;
   white-space: nowrap;
 }

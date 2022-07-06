@@ -1,6 +1,6 @@
-import { FC, memo } from "react";
+import React, { FC, memo } from "react";
 import Logo from "../../Assets/_2GEDA11.png";
-
+import { useNavigate } from "react-router-dom";
 import { BellIcon } from "./BellIcon";
 import { CheckCircleIcon } from "./CheckCircleIcon";
 import { CheckCircleIcon2 } from "./CheckCircleIcon2";
@@ -302,6 +302,8 @@ interface Props {
   };
 }
 export const Home: FC<Props> = memo(function Home(props = {}) {
+  const navigate = useNavigate();
+
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
       <div className={`${classes.frame8} ${props.classes?.frame8 || ""}`}>
@@ -505,9 +507,17 @@ export const Home: FC<Props> = memo(function Home(props = {}) {
         }`}
       ></div>
       <Ellipse22Icon
+        onClick={() => {
+          navigate("/upload");
+        }}
         className={`${classes.ellipse22} ${props.classes?.ellipse22 || ""}`}
       />
-      <div className={`${classes.unnamed} ${props.classes?.unnamed || ""}`}>
+      <div
+        onClick={() => {
+          navigate("/upload");
+        }}
+        className={`${classes.unnamed} ${props.classes?.unnamed || ""}`}
+      >
         +
       </div>
     </div>
