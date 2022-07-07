@@ -52,6 +52,7 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
         }
         if (res.data.message === "User has been verified") {
           errorAlert(res.data.message);
+          navigate("/profile-details");
         } else {
           navigate("/verify-token");
         }

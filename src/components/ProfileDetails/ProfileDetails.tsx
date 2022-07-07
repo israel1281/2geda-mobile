@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { successAlert, errorAlert } from "../../utils/Alert";
 import Logo from "../../Assets/_2GEDA11.png";
 import { patchAPI } from "../../utils/fetchDataApi";
+import ReactLoading from "react-loading";
 
 interface Props {
   className?: string;
@@ -91,12 +92,22 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
       >
         Profile details
       </div>
-      <button
-        onClick={handleSubmit}
-        className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      >
-        Create account
-      </button>
+      {loading ? (
+        <button
+          disabled
+          onClick={handleSubmit}
+          className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+        >
+          <ReactLoading type="cylon" color="#fff" height={40} width={40} />
+        </button>
+      ) : (
+        <button
+          onClick={handleSubmit}
+          className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+        >
+          Create account
+        </button>
+      )}
       <input
         type="text"
         value={userData.surname || ""}
@@ -127,10 +138,10 @@ export const ProfileDetails: FC<Props> = memo(function ProfileDetails(
         placeholder="Create password"
         className={`${classes.rectangle54} ${props.classes?.rectangle54 || ""}`}
       />
-      <Ellipse14Icon
-        className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
-      />
       <ArrowLeftIcon
+        onClick={() => {
+          navigate("/verify-token");
+        }}
         className={`${classes.arrowLeft} ${props.classes?.arrowLeft || ""}`}
       />
       <div

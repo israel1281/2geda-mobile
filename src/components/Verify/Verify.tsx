@@ -63,7 +63,7 @@ export const Verify: FC<Props> = memo(function Verify(props = {}) {
     if (data.message === "Invalid token or email") {
       errorAlert("Invalid Token");
     } else if (data.status === "success") {
-      navigate("/profile-upload");
+      navigate("/profile-details");
     }
   }, [data, navigate]);
 
@@ -78,7 +78,6 @@ export const Verify: FC<Props> = memo(function Verify(props = {}) {
       .then((res: any) => {
         setLoading(false);
         setData(res.data);
-        localStorage.removeItem("email");
       })
       .catch((err) => {
         setLoading(false);
