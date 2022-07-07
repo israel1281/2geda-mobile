@@ -143,6 +143,7 @@
   left: 36.34px;
   top: 94px;
   overflow: visible;
+  cursor: pointer;
 }
 .useEmailInstead {
   color: #4f0da3;
@@ -165,6 +166,7 @@
   right: 135%;
   top: 342px;
   white-space: nowrap;
+  cursor: pointer;
 }
 .signUpHere {
   color: #000c;
@@ -175,6 +177,7 @@
   right: 314%;
   top: 342px;
   white-space: nowrap;
+  cursor: pointer;
 }
 .password {
   color: #0006;
