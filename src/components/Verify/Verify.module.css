@@ -17,6 +17,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 .pleaseVerifyYourEmail {
   color: #000c;
@@ -65,6 +66,7 @@
   right: 85%;
   top: 14%;
   overflow: visible;
+  cursor: pointer;
 }
 .group15 {
   width: 90%;
@@ -114,4 +116,5 @@
   left: 20%;
   top: 344px;
   white-space: nowrap;
+  cursor: pointer;
 }

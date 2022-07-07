@@ -6,6 +6,7 @@ import classes from "./Verify.module.css";
 import { successAlert, errorAlert } from "../../utils/Alert";
 import { patchAPI } from "../../utils/fetchDataApi";
 import Logo from "../../Assets/_2GEDA11.png";
+import ReactLoading from "react-loading";
 
 interface Props {
   className?: string;
@@ -124,16 +125,29 @@ export const Verify: FC<Props> = memo(function Verify(props = {}) {
       >
         Please verify your email
       </div>
-      <button
-        onClick={handleSubmit}
-        className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      >
-        Verify
-      </button>
+      {loading ? (
+        <button
+          disabled
+          onClick={handleSubmit}
+          className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+        >
+          <ReactLoading type="cylon" color="#fff" height={40} width={40} />
+        </button>
+      ) : (
+        <button
+          onClick={handleSubmit}
+          className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+        >
+          Verify
+        </button>
+      )}
       <Ellipse14Icon
         className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
       />
       <ArrowLeftIcon
+        onClick={() => {
+          navigate("/signup");
+        }}
         className={`${classes.arrowLeft} ${props.classes?.arrowLeft || ""}`}
       />
       <input
