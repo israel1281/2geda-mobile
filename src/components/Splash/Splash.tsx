@@ -1,4 +1,5 @@
-import { FC, memo } from "react";
+import React, { FC, memo } from "react";
+import ReactLoading from "react-loading";
 
 import classes from "./Splash.module.css";
 
@@ -21,6 +22,20 @@ export const Splash: FC<Props> = memo(function Splash(props = {}) {
         }`}
       >
         The Platform we build together
+      </div>
+      <div
+        style={{
+          marginTop: "80%",
+          position: "relative",
+          marginLeft: "48%"
+        }}
+      >
+        <ReactLoading
+          type="spinningBubbles"
+          color="#fff"
+          height={40}
+          width={40}
+        />
       </div>
     </div>
   );

@@ -1,8 +1,10 @@
 .root {
   height: 100%;
+  width: 100%;
   flex: 1;
   align-self: stretch;
   align-items: flex-start;
+  flex-direction: column;
   position: relative;
   background-color: #4f0da3;
   overflow: hidden;
@@ -10,9 +12,9 @@
 ._2GEDA21 {
   width: 138px;
   height: 138px;
-  position: absolute;
-  left: 119px;
-  top: 337px;
+  position: relative;
+  left: 30%;
+  top: 30%;
   background-image:/* webpackIgnore: true */ url("assets/_2GEDA21.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -24,8 +26,8 @@
   font-weight: 500;
   font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 84px;
-  top: 503px;
+  position: relative;
+  left: 20%;
+  top: 33%;
   white-space: nowrap;
 }

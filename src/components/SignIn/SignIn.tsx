@@ -6,6 +6,7 @@ import classes from "./SignIn.module.css";
 import { successAlert, errorAlert } from "../../utils/Alert";
 import { validateEmail } from "../../utils/validation";
 import { postAPI } from "../../utils/fetchDataApi";
+import ReactLoading from "react-loading";
 
 interface Props {
   className?: string;
@@ -65,7 +66,7 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
       })
       .catch((err: any) => {
         if (err) {
-          errorAlert(err.response.data.message);
+          errorAlert("Authentication failed");
         }
       });
   };
@@ -86,7 +87,7 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
         type="email"
         value={userData.email || ""}
         onChange={(e) => setUserData({ ...userData, email: e.target.value })}
-        placeholder="Input Phone number"
+        placeholder="Input email address"
         className={`${classes.rectangle5} ${props.classes?.rectangle5 || ""}`}
       />
       <input
@@ -96,10 +97,10 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
         type="password"
         className={`${classes.rectangle52} ${props.classes?.rectangle52 || ""}`}
       />
-      <Ellipse14Icon
-        className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
-      />
       <ArrowLeftIcon
+        onClick={() => {
+          navigate("/");
+        }}
         className={`${classes.arrowLeft} ${props.classes?.arrowLeft || ""}`}
       />
       <div
@@ -112,12 +113,22 @@ export const SignIn: FC<Props> = memo(function SignIn(props = {}) {
       >
         Forget Password?
       </div>
-      <button
-        onClick={handleSubmit}
-        className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      >
-        sign in
-      </button>
+      {loading ? (
+        <button
+          disabled
+          onClick={handleSubmit}
+          className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+        >
+          <ReactLoading type="cylon" color="#fff" height={40} width={40} />
+        </button>
+      ) : (
+        <button
+          onClick={handleSubmit}
+          className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+        >
+          Signin
+        </button>
+      )}
       <div
         onClick={() => {
           navigate("/signup");
