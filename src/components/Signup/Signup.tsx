@@ -7,6 +7,7 @@ import { postAPI } from "../../utils/fetchDataApi";
 import { successAlert, errorAlert } from "../../utils/Alert";
 import Logo from "../../Assets/_2GEDA11.png";
 import classes from "./Signup.module.css";
+import ReactLoading from "react-loading";
 
 interface Props {
   className?: string;
@@ -46,8 +47,14 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
     postAPI("registerUser", userData)
       .then((res: any) => {
         setLoading(loading);
-        successAlert(res.data.message);
-        navigate("/verify-token");
+        if (res.data.status === "success") {
+          successAlert(res.data.message);
+        }
+        if (res.data.message === "User has been verified") {
+          errorAlert(res.data.message);
+        } else {
+          navigate("/verify-token");
+        }
       })
       .catch((err: any) => {
         errorAlert(err.res.data.message);
@@ -68,12 +75,22 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
       >
         Sign up with email
       </div>
-      <button
-        onClick={Signup}
-        className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
-      >
-        Continue
-      </button>
+      {loading ? (
+        <button
+          disabled
+          onClick={Signup}
+          className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+        >
+          <ReactLoading type="cylon" color="#fff" height={40} width={40} />
+        </button>
+      ) : (
+        <button
+          onClick={Signup}
+          className={`${classes.rectangle3} ${props.classes?.rectangle3 || ""}`}
+        >
+          Signin
+        </button>
+      )}
       <input
         type="email"
         value={userData.email || ""}
@@ -81,10 +98,10 @@ export const Signup: FC<Props> = memo(function Signup(props = {}) {
         placeholder="Input email address"
         className={`${classes.rectangle5} ${props.classes?.rectangle5 || ""}`}
       />
-      <Ellipse14Icon
-        className={`${classes.ellipse14} ${props.classes?.ellipse14 || ""}`}
-      />
       <ArrowLeftIcon
+        onClick={() => {
+          navigate("/");
+        }}
         className={`${classes.arrowLeft} ${props.classes?.arrowLeft || ""}`}
       />
       <div

@@ -99,6 +99,7 @@
   left: 5%;
   top: 15%;
   overflow: visible;
+  cursor: pointer;
 }
 .usePhoneNumberInstead {
   color: #4f0da3;
